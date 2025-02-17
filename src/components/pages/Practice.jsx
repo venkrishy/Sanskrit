@@ -1,138 +1,209 @@
-import { useState } from 'react'
-import { Label } from '@/components/ui/label'
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
+import { useContext, useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { ProgressContext } from '../../App'
+import { Button } from '../ui/button'
+import { RadioGroup, RadioGroupItem } from '../ui/radio-group'
 
-export default function Practice() {
-  const [currentStep, setCurrentStep] = useState(0)
-  const [userAnswer, setUserAnswer] = useState('')
-  const [showFeedback, setShowFeedback] = useState(false)
-
-  const lessons = [
+const practiceExercises = {
+  "1.1": [
     {
-      id: 1,
-      image: "/lessons/1.1-introductions.jpg",
-      title: "Lesson 1: Introductions",
-      description: "Learn how to introduce yourself and ask others' names in Sanskrit",
-      questions: [
-        {
-          question: "भवतः नाम किम् ? (Bhavataḥ nāma kim?)",
-          correctAnswer: "Rāmaḥ",
-          options: ["Rāmaḥ", "Sureśaḥ", "Kṛṣṇaḥ", "Latā"],
-          explanation: "In the first conversation, the person responds with 'Mama nāma Rāmaḥ'"
-        },
-        {
-          question: "भवत्याः नाम किम् ? (Bhavatyāḥ nāma kim?)",
-          correctAnswer: "Latā",
-          options: ["Rādhā", "Latā", "Sureśaḥ", "Rāmaḥ"],
-          explanation: "The woman responds with 'Mama nāma Latā'"
-        },
-        {
-          question: "What is Kṛṣṇaḥ's response to 'Bhavataḥ nāma kim?'",
-          correctAnswer: "Mama nāma Kṛṣṇaḥ",
-          options: [
-            "Mama nāma Kṛṣṇaḥ",
-            "Bhavataḥ nāma kim",
-            "Mama nāma Rāmaḥ",
-            "Mama nāma Latā"
-          ],
-          explanation: "Kṛṣṇaḥ responds with 'Mama nāma Kṛṣṇaḥ' (My name is Kṛṣṇaḥ)"
-        }
+      type: "multiple-choice",
+      question: "What is the Sanskrit word for 'Hello'?",
+      options: ["नमस्ते", "धन्यवादः", "पुनर्मिलामः", "शुभरात्रिः"],
+      correct: "नमस्ते"
+    }
+  ],
+  "1.2": [
+    {
+      type: "multiple-choice",
+      question: "Which demonstrative pronoun means 'this' (masculine)?",
+      options: ["एषः", "सः", "एषा", "तत्"],
+      correct: "एषः"
+    }
+  ],
+  "1.3": [
+    {
+      type: "matching",
+      items: [
+        { sanskrit: "दर्पणः", english: "mirror" },
+        { sanskrit: "मञ्चः", english: "bed" },
+        { sanskrit: "विद्युद्दीपः", english: "electric lamp" },
+        { sanskrit: "करदीपः", english: "flashlight" }
       ]
     }
   ]
+}
 
-  const currentLesson = lessons[0]
-  const currentQuestion = currentLesson.questions[currentStep]
+function MultipleChoice({ question, options, onAnswer }) {
+  const [selected, setSelected] = useState("")
 
-  const handleAnswer = () => {
-    setShowFeedback(true)
-  }
+  return (
+    <div className="space-y-4">
+      <h3 className="text-lg font-medium">{question}</h3>
+      <RadioGroup value={selected} onValueChange={setSelected}>
+        {options.map((option, index) => (
+          <div key={index} className="flex items-center space-x-2">
+            <RadioGroupItem value={option} id={`option-${index}`} />
+            <label htmlFor={`option-${index}`} className="text-lg">
+              {option}
+            </label>
+          </div>
+        ))}
+      </RadioGroup>
+      <Button 
+        onClick={() => onAnswer(selected)}
+        disabled={!selected}
+        className="mt-4"
+      >
+        Submit Answer
+      </Button>
+    </div>
+  )
+}
 
-  const handleNext = () => {
-    if (currentStep < currentLesson.questions.length - 1) {
-      setCurrentStep(currentStep + 1)
-      setUserAnswer('')
-      setShowFeedback(false)
+function MatchingExercise({ items, onComplete }) {
+  const [matches, setMatches] = useState({})
+  const [selected, setSelected] = useState(null)
+
+  const handleClick = (item, type) => {
+    if (!selected) {
+      setSelected({ item, type })
+    } else if (selected.type !== type) {
+      const newMatches = { ...matches }
+      if (type === 'english') {
+        newMatches[selected.item] = item
+      } else {
+        newMatches[item] = selected.item
+      }
+      setMatches(newMatches)
+      setSelected(null)
+
+      if (Object.keys(newMatches).length === items.length) {
+        onComplete(newMatches)
+      }
     }
   }
 
-  const isCorrect = userAnswer === currentQuestion.correctAnswer
-
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="bg-white rounded-lg shadow-lg p-6">
-        <h1 className="text-2xl font-bold mb-4">{currentLesson.title}</h1>
-        <p className="text-gray-600 mb-6">{currentLesson.description}</p>
-
-        {/* Lesson Image */}
-        <div className="mb-8">
-          <img
-            src={currentLesson.image}
-            alt="Sanskrit Lesson"
-            className="w-full max-w-2xl mx-auto rounded-lg shadow-md"
-          />
-        </div>
-        
-        <div className="space-y-6">
-          {/* Question Display */}
-          <div className="bg-gray-50 p-4 rounded-lg">
-            <p className="text-lg font-semibold mb-2">Question {currentStep + 1}:</p>
-            <p className="text-lg">{currentQuestion.question}</p>
-          </div>
-
-          {/* Answer Options */}
-          <RadioGroup
-            value={userAnswer}
-            onValueChange={setUserAnswer}
-            className="space-y-3"
+    <div className="grid grid-cols-2 gap-8">
+      <div className="space-y-4">
+        <h3 className="text-lg font-medium">Sanskrit Words</h3>
+        {items.map(item => (
+          <Button
+            key={item.sanskrit}
+            variant={selected?.item === item.sanskrit ? "default" : "outline"}
+            className="w-full"
+            onClick={() => handleClick(item.sanskrit, 'sanskrit')}
+            disabled={Object.keys(matches).includes(item.sanskrit)}
           >
-            {currentQuestion.options.map((option, index) => (
-              <div key={index} className="flex items-center space-x-2">
-                <RadioGroupItem value={option} id={`option-${index}`} />
-                <Label htmlFor={`option-${index}`} className="text-lg">
-                  {option}
-                </Label>
-              </div>
-            ))}
-          </RadioGroup>
+            {item.sanskrit}
+          </Button>
+        ))}
+      </div>
+      <div className="space-y-4">
+        <h3 className="text-lg font-medium">English Meanings</h3>
+        {items.map(item => (
+          <Button
+            key={item.english}
+            variant={selected?.item === item.english ? "default" : "outline"}
+            className="w-full"
+            onClick={() => handleClick(item.english, 'english')}
+            disabled={Object.values(matches).includes(item.english)}
+          >
+            {item.english}
+          </Button>
+        ))}
+      </div>
+    </div>
+  )
+}
 
-          {/* Feedback */}
-          {showFeedback && (
-            <div className={`p-4 rounded-lg ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`}>
-              <p className="font-semibold">
-                {isCorrect ? 'Correct! 🎉' : 'Not quite right. Try again!'}
-              </p>
-              <p className="mt-2">{currentQuestion.explanation}</p>
-            </div>
-          )}
+export default function Practice() {
+  const navigate = useNavigate()
+  const { progress } = useContext(ProgressContext)
+  const [currentExercise, setCurrentExercise] = useState(0)
+  const [score, setScore] = useState(0)
+  const [isComplete, setIsComplete] = useState(false)
 
-          {/* Navigation */}
-          <div className="flex justify-between mt-6">
-            <button
-              onClick={() => {
-                setCurrentStep(Math.max(0, currentStep - 1))
-                setUserAnswer('')
-                setShowFeedback(false)
-              }}
-              disabled={currentStep === 0}
-              className="px-4 py-2 bg-gray-200 rounded-md disabled:opacity-50"
-            >
-              Previous
-            </button>
-            <button
-              onClick={showFeedback ? handleNext : handleAnswer}
-              className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-            >
-              {showFeedback ? 'Next Question' : 'Check Answer'}
-            </button>
-          </div>
+  const lessonKey = `${progress.currentChapter}.${progress.currentSection}`
+  const exercises = practiceExercises[lessonKey] || []
 
-          {/* Progress Indicator */}
-          <div className="mt-4 text-center text-gray-600">
-            Question {currentStep + 1} of {currentLesson.questions.length}
-          </div>
+  const handleAnswer = (answer) => {
+    const exercise = exercises[currentExercise]
+    if (exercise.type === "multiple-choice") {
+      if (answer === exercise.correct) {
+        setScore(score + 1)
+      }
+    } else if (exercise.type === "matching") {
+      const isCorrect = exercise.items.every(
+        item => answer[item.sanskrit] === item.english
+      )
+      if (isCorrect) {
+        setScore(score + 1)
+      }
+    }
+
+    if (currentExercise < exercises.length - 1) {
+      setCurrentExercise(currentExercise + 1)
+    } else {
+      setIsComplete(true)
+    }
+  }
+
+  if (!exercises.length) {
+    return (
+      <div className="text-center py-12">
+        <h2 className="text-2xl font-bold mb-4">No practice exercises available</h2>
+        <Button onClick={() => navigate('/lessons')}>
+          Return to Lessons
+        </Button>
+      </div>
+    )
+  }
+
+  if (isComplete) {
+    return (
+      <div className="text-center py-12">
+        <h2 className="text-2xl font-bold mb-4">
+          Practice Complete!
+        </h2>
+        <p className="text-xl mb-8">
+          You scored {score} out of {exercises.length}
+        </p>
+        <div className="space-x-4">
+          <Button onClick={() => navigate('/lessons')}>
+            Return to Lessons
+          </Button>
+          <Button 
+            variant="outline"
+            onClick={() => {
+              setCurrentExercise(0)
+              setScore(0)
+              setIsComplete(false)
+            }}
+          >
+            Practice Again
+          </Button>
         </div>
       </div>
+    )
+  }
+
+  const exercise = exercises[currentExercise]
+  return (
+    <div className="max-w-2xl mx-auto py-8">
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Practice Exercise</h2>
+        <p className="text-gray-600">
+          Exercise {currentExercise + 1} of {exercises.length}
+        </p>
+      </div>
+
+      {exercise.type === "multiple-choice" ? (
+        <MultipleChoice {...exercise} onAnswer={handleAnswer} />
+      ) : exercise.type === "matching" ? (
+        <MatchingExercise {...exercise} onComplete={handleAnswer} />
+      ) : null}
     </div>
   )
 } 

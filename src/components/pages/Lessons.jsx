@@ -1,62 +1,140 @@
-import React from 'react';
-import images from '@/lib/images';
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
+import { useContext, useState } from 'react'
+import { Routes, Route, useNavigate, useParams } from 'react-router-dom'
+import { ProgressContext } from '../../App'
+import { Button } from '../ui/button'
 
-const Lessons = () => {
-  const [currentLesson, setCurrentLesson] = useState(0)
+const chapters = [
+  {
+    id: 1,
+    title: "Introduction and Basic Concepts",
+    sections: [
+      { id: 1, title: "Introductions (परिचयः)", image: "/images/1.1 Introductions.jpeg" },
+      { id: 2, title: "Demonstrative Pronouns", image: "/images/1.2.jpeg" },
+      { id: 3, title: "Daily Use Items (नित्योपयोगिनि वस्तूनि)", image: "/images/1.3 Daily Use Items.jpeg" },
+      { id: 4, title: "List Items", image: "/images/1.4 List Items shown in picture.jpeg" },
+    ]
+  },
+  {
+    id: 2,
+    title: "Basic Communication",
+    sections: [
+      { id: 1, title: "Verb Forms", image: "/images/2.1 Verb.jpeg" },
+      { id: 2, title: "Practice Talking", image: "/images/2.2 Practice Talking.jpeg" },
+      { id: 3, title: "Describe the Scene", image: "/images/2.3 Describe the scene.jpeg" }
+    ]
+  },
+  {
+    id: 3,
+    title: "Numbers and Time",
+    sections: [
+      { id: 1, title: "Numbers", image: "/images/3.1 Numbers.jpeg" },
+      { id: 2, title: "Numbers Practice", image: "/images/3.2 Numbers Practice.jpeg" },
+      { id: 3, title: "Time", image: "/images/3.3 Time.jpeg" }
+    ]
+  }
+]
 
-  // This will be populated with content from your images
-  const lessons = [
-    {
-      title: "Introduction to Sanskrit",
-      content: "Lesson content will go here"
-    }
-  ]
+function ChapterList() {
+  const navigate = useNavigate()
+  const { progress } = useContext(ProgressContext)
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Sanskrit Lessons</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* Example of using an image */}
-        <div className="rounded-lg overflow-hidden shadow-lg">
-          <img 
-            src={images.lessons.lesson1} 
-            alt="Lesson 1"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-4">
-            <h2 className="font-bold text-xl mb-2">Lesson 1</h2>
-            <p className="text-gray-700">Introduction to Sanskrit</p>
+    <div className="space-y-6">
+      <h1 className="text-3xl font-bold">Sanskrit Lessons</h1>
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {chapters.map((chapter) => (
+          <div 
+            key={chapter.id}
+            className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+          >
+            <h2 className="text-xl font-semibold mb-4">
+              Chapter {chapter.id}: {chapter.title}
+            </h2>
+            <div className="space-y-2">
+              {chapter.sections.map((section) => {
+                const isCompleted = progress.completedLessons.has(`${chapter.id}.${section.id}`)
+                const isCurrent = progress.currentChapter === chapter.id && progress.currentSection === section.id
+
+                return (
+                  <Button
+                    key={section.id}
+                    variant={isCompleted ? "success" : isCurrent ? "default" : "secondary"}
+                    className="w-full text-left justify-start"
+                    onClick={() => navigate(`/lessons/${chapter.id}/${section.id}`)}
+                  >
+                    {section.id}. {section.title}
+                  </Button>
+                )
+              })}
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="max-w-4xl mx-auto py-8">
-        <h1 className="text-2xl font-bold mb-8">Sanskrit Lessons</h1>
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold mb-4">{lessons[currentLesson].title}</h2>
-          <div className="prose max-w-none mb-6">
-            {lessons[currentLesson].content}
-          </div>
-          <div className="flex justify-between">
-            <Button
-              variant="outline"
-              onClick={() => setCurrentLesson((prev) => prev - 1)}
-              disabled={currentLesson === 0}
-            >
-              Previous Lesson
-            </Button>
-            <Button
-              onClick={() => setCurrentLesson((prev) => prev + 1)}
-              disabled={currentLesson === lessons.length - 1}
-            >
-              Next Lesson
-            </Button>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   )
 }
 
-export default Lessons 
+function LessonContent() {
+  const navigate = useNavigate()
+  const { progress, setProgress } = useContext(ProgressContext)
+  const { chapter, section } = useParams()
+  const currentChapter = chapters.find(c => c.id === parseInt(chapter))
+  const currentSection = currentChapter?.sections.find(s => s.id === parseInt(section))
+
+  if (!currentChapter || !currentSection) {
+    return <div>Lesson not found</div>
+  }
+
+  const markComplete = () => {
+    setProgress(prev => ({
+      ...prev,
+      completedLessons: new Set([...prev.completedLessons, `${chapter}.${section}`])
+    }))
+  }
+
+  return (
+    <div className="space-y-6">
+      <div className="flex justify-between items-center">
+        <h1 className="text-3xl font-bold">
+          Chapter {chapter}: {currentChapter.title}
+        </h1>
+        <Button onClick={() => navigate('/lessons')}>Back to Chapters</Button>
+      </div>
+      
+      <h2 className="text-2xl font-semibold">
+        Section {section}: {currentSection.title}
+      </h2>
+
+      {currentSection.image && (
+        <div className="my-6">
+          <img 
+            src={currentSection.image} 
+            alt={currentSection.title}
+            className="max-w-full rounded-lg shadow-md"
+          />
+        </div>
+      )}
+
+      <div className="mt-8 flex justify-between">
+        <Button
+          onClick={() => navigate('/practice')}
+          variant="outline"
+        >
+          Practice this lesson
+        </Button>
+        <Button onClick={markComplete}>
+          Mark as Complete
+        </Button>
+      </div>
+    </div>
+  )
+}
+
+export default function Lessons() {
+  return (
+    <Routes>
+      <Route path="/" element={<ChapterList />} />
+      <Route path="/:chapter/:section" element={<LessonContent />} />
+    </Routes>
+  )
+} 

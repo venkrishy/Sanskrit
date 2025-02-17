@@ -1,24 +1,35 @@
-import { Button } from "@/components/ui/button"
-import { Routes, Route, Link } from "react-router-dom"
-import Navbar from "@/components/Navbar"
-import LandingPage from "@/components/pages/LandingPage"
-import Lessons from "@/components/pages/Lessons"
-import Quiz from "@/components/pages/Quiz"
-import Practice from "@/components/pages/Practice"
+import { Routes, Route } from 'react-router-dom'
+import { createContext, useState } from 'react'
+import Navbar from './components/Navbar'
+import LandingPage from './components/pages/LandingPage'
+import Lessons from './components/pages/Lessons'
+import Practice from './components/pages/Practice'
+import Quiz from './components/pages/Quiz'
+
+export const ProgressContext = createContext()
 
 function App() {
+  const [progress, setProgress] = useState({
+    currentChapter: 1,
+    currentSection: 1,
+    completedLessons: new Set(),
+    quizScores: {},
+  })
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <main className="container mx-auto p-4">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/lessons/*" element={<Lessons />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/practice" element={<Practice />} />
-        </Routes>
-      </main>
-    </div>
+    <ProgressContext.Provider value={{ progress, setProgress }}>
+      <div className="min-h-screen bg-gray-50">
+        <Navbar />
+        <main className="container mx-auto px-4 py-8">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/lessons/*" element={<Lessons />} />
+            <Route path="/practice" element={<Practice />} />
+            <Route path="/quiz" element={<Quiz />} />
+          </Routes>
+        </main>
+      </div>
+    </ProgressContext.Provider>
   )
 }
 

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold text-primary">
+          <Link to="/" className="text-xl font-bold text-blue-500">
             Sanskrit Learning
           </Link>
           <div className="space-x-4">
