@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useEffect } from 'react'
 import { Routes, Route, useNavigate, useParams } from 'react-router-dom'
 import { ProgressContext } from '../../App'
 import { Button } from '../ui/button'
@@ -80,9 +80,23 @@ function LessonContent() {
   const { chapter, section } = useParams()
   const currentChapter = chapters.find(c => c.id === parseInt(chapter))
   const currentSection = currentChapter?.sections.find(s => s.id === parseInt(section))
+  const [content, setContent] = useState(null)
 
-  if (!currentChapter || !currentSection) {
-    return <div>Lesson not found</div>
+  useEffect(() => {
+    // This is a placeholder. In a real app, you would fetch the content for the section
+    setContent({
+      title: `Lesson ${section}`,
+      content: `This is the content for lesson ${section}. In a real application, this would be loaded from your curriculum data.`,
+      examples: [
+        "Example 1 for this lesson",
+        "Example 2 for this lesson",
+        "Example 3 for this lesson"
+      ]
+    })
+  }, [section])
+
+  if (!currentChapter || !currentSection || !content) {
+    return <div className="p-4">Loading...</div>
   }
 
   const markComplete = () => {
@@ -115,6 +129,19 @@ function LessonContent() {
         </div>
       )}
 
+      <div className="prose max-w-none">
+        <p className="text-lg mb-8">{content.content}</p>
+        
+        <h2 className="text-2xl font-semibold mb-4">Examples</h2>
+        <ul className="space-y-2">
+          {content.examples.map((example, index) => (
+            <li key={index} className="bg-white p-4 rounded-lg shadow-sm">
+              {example}
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <div className="mt-8 flex justify-between">
         <Button
           onClick={() => navigate('/practice')}
@@ -131,10 +158,20 @@ function LessonContent() {
 }
 
 export default function Lessons() {
-  return (
-    <Routes>
-      <Route path="/" element={<ChapterList />} />
-      <Route path="/:chapter/:section" element={<LessonContent />} />
-    </Routes>
-  )
+  const { '*': sectionId } = useParams()
+
+  if (sectionId) {
+    return (
+      <Routes>
+        <Route path="/" element={<ChapterList />} />
+        <Route path="/:chapter/:section" element={<LessonContent />} />
+      </Routes>
+    )
+  } else {
+    return (
+      <Routes>
+        <Route path="/" element={<ChapterList />} />
+      </Routes>
+    )
+  }
 } 

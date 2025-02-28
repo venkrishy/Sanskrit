@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { createContext, useState } from 'react'
 import Navbar from './components/Navbar'
+import Layout from './components/Layout'
 import LandingPage from './components/pages/LandingPage'
 import Lessons from './components/pages/Lessons'
 import Practice from './components/pages/Practice'
@@ -19,9 +20,9 @@ function App() {
 
   return (
     <ProgressContext.Provider value={{ progress, setProgress }}>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-background">
         <Navbar />
-        <main className="container mx-auto px-4 py-8">
+        <Layout>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/lessons/*" element={<Lessons />} />
@@ -29,7 +30,7 @@ function App() {
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
-        </main>
+        </Layout>
       </div>
     </ProgressContext.Provider>
   )
