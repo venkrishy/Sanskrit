@@ -90,6 +90,257 @@ The text below is the table of contents from a  Sanskrit learning book, with var
 | 19.3 | १९.३ | विना | vinā | Without | |
 | 20.1 | २०.१ | (अ) अशक्त, अशक्य, छन्दत... | (a) aśakta, aśakya, chandata... | Unable, Impossible, Willing... | |
 | 20.1 | २०.१ | (आ) अभ्यासः (अशक्त...) | (ā) abhyāsaḥ (aśakta...) | Exercise (Unable...) | |
+Okay, here's the transliteration and translation of each line from the image you sent, following the format you requested (English Translation first, Transliteration second and Devanagari third, all in one line (for each line translated) and using IAST transliteration).
+
+**१०.१. (अ) शीघ्रम्, मन्दम्... /३५**
+
+*   Quickly, slowly... /35 - śīghram, mandam... /35 - शीघ्रम्, मन्दम्... /३५
+
+**(आ) अभ्यासः (शीघ्रम्, मन्दम्...) /३५**
+
+*   Exercise (Quickly, slowly...) /35 - abhyāsaḥ (śīghram, mandam...) /35 - अभ्यासः (शीघ्रम्, मन्दम्...) /३५
+
+**(इ) कथम् ? /३६**
+
+*   How? /36 - katham? /36 - कथम् ? /३६
+
+**(ई) अभ्यासः (कथम्) /३७**
+
+*   Exercise (How?) /37 - abhyāsaḥ (katham) /37 - अभ्यासः (कथम्) /३७
+
+**१०.२. किमर्थम् /३७**
+
+*   Why? /37 - kimartham /37 - किमर्थम् /३७
+
+**११.१. भूतकालरूपाणि / ३८**
+
+*   Past Tense Forms /38 - bhūtakālarūpāṇi / 38 - भूतकालरूपाणि / ३८
+
+**११.२. अस्ति - सन्ति, अस्मि - स्मः, आसीत् - आसन्, आसम् - आस्म / ३९**
+
+*   Is - Are, Am - Are, Was - Were, Was - Were /39 - asti - santi, asmi - smaḥ, āsīt - āsan, āsam - āsma / 39 - अस्ति - सन्ति, अस्मि - स्मः, आसीत् - आसन्, आसम् - आस्म / ३९
+
+**११.३. (अ) कथापठनम् / ३९**
+
+*   Story Reading /39 - kathāpaṭhanam / 39 - कथापठनम् / ३९
+
+**(आ) क्रियापदानां भूतकालरूपाणि परिवर्तनाभ्यासः /४०**
+
+*   Exercise in Changing Verb Forms in the Past Tense /40 - kriyāpadānāṃ bhūtakālarūpāṇi parivartanābhyāsaḥ /40 - क्रियापदानां भूतकालरूपाणि परिवर्तनाभ्यासः /४०
+
+**११.३. (इ) अभ्यासः (भूतकालः) /४१**
+
+*   Exercise (Past Tense) /41 - abhyāsaḥ (bhūtakālaḥ) /41 - अभ्यासः (भूतकालः) /४१
+
+**(ई) अभ्यासः (भूतकालः) /४१**
+
+*   Exercise (Past Tense) /41 - abhyāsaḥ (bhūtakālaḥ) /41 - अभ्यासः (भूतकालः) /४१
+
+**१२.१. भविष्यत्कालरूपाणि /४ १**
+
+*   Future Tense Forms /41 - bhaviṣyatkālarūpāṇi /4 1 - भविष्यत्कालरूपाणि /४ १
+
+**१२.२. विशेषरूपाणि (भवि.) /४२**
+
+*   Special Forms (Future) /42 - viśeṣarūpāṇi (bhavi.) /42 - विशेषरूपाणि (भवि.) /४२
+
+**१३.१. सम्बोधनरूपाणि /४२**
+
+*   Vocative Forms /42 - sambodhanarūpāṇi /42 - सम्बोधनरूपाणि /४२
+
+**१३.२. अभ्यासः (सम्बोधनरूपाणि) /४३**
+
+*   Exercise (Vocative Forms) /43 - abhyāsaḥ (sambodhanarūpāṇi) /43 - अभ्यासः (सम्बोधनरूपाणि) /४३
+
+**१४.१. यदि - तर्हि /४३**
+
+*   If - Then /43 - yadi - tarhi /43 - यदि - तर्हि /४३
+
+**१५.१. च, एव, इति, अपि /४४**
+
+*   And, Indeed, Thus, Also /44 - ca, eva, iti, api /44 - च, एव, इति, अपि /४४
+
+**१५.२. अभ्यासः (च, एव, इति, अपि) /४५**
+
+*   Exercise (And, Indeed, Thus, Also) /45 - abhyāsaḥ (ca, eva, iti, api) /45 - अभ्यासः (च, एव, इति, अपि) /४५
+
+**१६.१. (अ) तः - पर्यन्तम् /४५**
+
+*   From - Until /45 - taḥ - paryantam /45 - तः - पर्यन्तम् /४५
+
+**(आ) अभ्यासः (तः - पर्यन्तम्) /४६**
+
+*   Exercise (From - Until) /46 - abhyāsaḥ (taḥ - paryantam) /46 - अभ्यासः (तः - पर्यन्तम्) /४६
+
+**(इ) अद्य आरभ्य, श्वः आरभ्य ইত্যাदयঃ /४७**
+
+*   Starting Today, Starting Tomorrow, etc. /47 - adya ārabhya, śvaḥ ārabhya ityādayaḥ /47 - अद्य आरभ्य, श्वः आरभ्य ইত্যাदयঃ /४७
+
+**१७.१. यदा - तदा / ४८**
+
+*   When - Then /48 - yadā - tadā / 48 - यदा - तदा / ४८
+
+**१८.१. एकम्, द्वे, त्रीणि, चत्वारि /४९**
+
+*   One, Two, Three, Four /49 - ekam, dve, trīṇi, catvāri /49 - एकम्, द्वे, त्रीणि, चत्वारि /४९
+
+**१८.२. अभ्यासः (सङ्ख्या) /५०**
+
+*   Exercise (Numbers) /50 - abhyāsaḥ (saṅkhyā) /50 - अभ्यासः (सङ्ख्या) /५०
+
+**१९.१. तृतीयाविभक्तिः /५१**
+
+*   Third Declension /51 - tṛtīyāvibhaktiḥ /51 - तृतीयाविभक्तिः /५१
+
+**१९.२. (अ) सह /५२**
+
+*   With /52 - saha /52 - सह /५२
+
+**(आ) अभ्यासः (सह) /५३**
+
+*   Exercise (With) /53 - abhyāsaḥ (saha) /53 - अभ्यासः (सह) /५३
+
+**१९.३. विना /५३**
+
+*   Without /53 - vinā /53 - विना /५३
+
+**२०.१. (अ) अद्यतन, श्वस्तन, ह्यस्तन... /५४**
+
+*   Today's, Tomorrow's, Yesterday's... /54 - adyatana, śvastana, hyastana... /54 - अद्यतन, श्वस्तन, ह्यस्तन... /५४
+
+**(आ) अभ्यासः (अद्यतन....) /५४**
+
+*   Exercise (Today's...) /54 - abhyāsaḥ (adyatana....) /54 - अभ्यासः (अद्यतन....) /५४
+
+**२१.१. गत, आगामि / ५५**
+
+*   Gone, Coming / 55 - gata, āgāmi / 55 - गत, आगामि / ५५
+
+**२२.१. यावत् - तावत् /५५**
+
+*   As much as - so much / 55 - yāvat - tāvat /55 - यावत् - तावत् /५५
+
+**२३.१. यथा - तथा /५६**
+
+*   As - So / 56 - yathā - tathā /56 - यथा - तथा /५६
+
+**२४.१. स्म /५७**
+
+*   (Past Tense Particle) / 57 - sma /57 - स्म /५७
+
+**२५.१. क्त्वा /५८**
+
+*   Having done /58 - tvā /58 - क्त्वा /५८
+
+**२५.२. विशेषरूपाणि /५८**
+
+*   Special Forms /58 - viśeṣarūpāṇi /58 - विशेषरूपाणि /५८
+
+**२६.१. बन्धुवाचकशब्दानां परिचयः /५९**
+
+*   Introduction to Kinship Terms /59 - bandhuvācakaśabdānāṃ paricayaḥ /59 - बन्धुवाचकशब्दानां परिचयः /५९
+
+**२६.२. अभ्यासः (बन्धुवाचकाः) /६०**
+
+*   Exercise (Kinship Terms) /60 - abhyāsaḥ (bandhuvācakāḥ) /60 - अभ्यासः (बन्धुवाचकाः) /६०
+
+**२६.३. विशिष्टाः बन्धुवाचकशब्दाः /६१**
+
+*   Specific Kinship Terms /61 - viśiṣṭāḥ bandhuvācakaśabdāḥ /61 - विशिष्टाः बन्धुवाचकशब्दाः /६१
+
+**२७.१. (अ) रुचिवाचकाः शब्दाः /६१**
+
+*   Words Denoting Taste /61 - rucivācakāḥ śabdāḥ /61 - रुचिवाचकाः शब्दाः /६१
+
+**(आ) अभ्यासः (रुचिवाचकाः) /६२**
+
+*   Exercise (Words Denoting Taste) /62 - abhyāsaḥ (rucivācakāḥ) /62 - अभ्यासः (रुचिवाचकाः) /६२
+
+**२७.२ सम्भाषणम् (रुचिवाचकाः) /६२**
+
+*   Conversation (Words Denoting Taste) /62 - sambhāṣaṇam (rucivācakāḥ) /62 - सम्भाषणम् (रुचिवाचकाः) /६२
+
+**२७.३. अभ्यासः (रुचिवाचकाः) /६३**
+
+*   Exercise (Words Denoting Taste) /63 - abhyāsaḥ (rucivācakāḥ) /63 - अभ्यासः (रुचिवाचकाः) /६३
+
+**२८.१. कीदृशः, ईदृशः /६३**
+
+*   What kind of?, Like this / 63 - kīdṛśaḥ, īdṛśaḥ /63 - कीदृशः, ईदृशः /६३
+
+**२८.२. अभ्यासः (कीदृशः, ईदृशः...) /६४**
+
+*   Exercise (What kind of?, Like this...) /64 - abhyāsaḥ (kīdṛśaḥ, īdṛśaḥ...) /64 - अभ्यासः (कीदृशः, ईदृशः...) /६४
+
+**२९.१. विरुद्धार्थकाः शब्दाः /६५**
+
+*   Words with Opposite Meanings /65 - viruddhārthakāḥ śabdāḥ /65 - विरुद्धार्थकाः शब्दाः /६५
+
+**३०.१. अपेक्षया /६६**
+
+*   Compared to /66 - apekṣayā /66 - अपेक्षया /६६
+
+**३०.२. (अ) यत्र - तत्र / ६६**
+
+*   Where - There / 66 - yatra - tatra / 66 - यत्र - तत्र / ६६
+
+**(आ) यत्र - तत्र (अभ्यासः) ६७**
+
+*   Where - There (Exercise) / 67 - yatra - tatra (abhyāsaḥ) 67 - यत्र - तत्र (अभ्यासः) ६७
+
+**३१.१. तुमुन् /६७**
+
+*   In order to /67 - tumun /67 - तुमुन् /६७
+
+**३१.२. परिवर्तनाभ्यासः (क्त्त्वातः तुमुन्) /६८**
+
+*   Exercise in Changing (From having done to in order to) /68 - parivartanābhyāsaḥ (tvātaḥ tumun) /68 - परिवर्तनाभ्यासः (क्त्त्वातः तुमुन्) /६८
+
+**३२.१. किन्तु, निश्चयेन, प्रायशः, किल /७०**
+
+*   But, Certainly, Mostly, Indeed /70 - kintu, niścayena, prāyaśaḥ, kila /70 - किन्तु, निश्चयेन, प्रायशः, किल /७०
+
+**३३.१. चेत् /७०**
+
+*   If / 70 - cet /70 - चेत् /७०
+
+**३३.२. नो चेत् /७१**
+
+*   If not / 71 - no cet /71 - नो चेत् /७१
+
+**३३.३. यतः /७१**
+
+*   Because /71 - yataḥ /71 - यतः /७१
+
+**३४.१. अवयवानां नामानि /७२**
+
+*   Names of Body Parts /72 - avayavānāṃ nāmāni /72 - अवयवानां नामानि /७२
+
+**३४.२. अभ्यासः (अवयवाः) /७३**
+
+*   Exercise (Body Parts) /73 - abhyāsaḥ (avayavāḥ) /73 - अभ्यासः (अवयवाः) /७३
+
+**३५.१. यः - सः, या - सा /७३**
+
+*   Who - He, Who - She / 73 - yaḥ - saḥ, yā - sā /73 - यः - सः, या - सा /७३
+
+**३५.२. यत् - तत् /७३**
+
+*   Which - That / 73 - yat - tat /73 - यत् - तत् /७३
+
+**३६.१. यद्यपि – तथापि /७४**
+
+*   Although - Yet / 74 - yadyapi – tathāpi /74 - यद्यपि – तथापि /७४
+
+**कठिनशब्दानां सान्दर्भिकाः अर्थाः /७५**
+
+*   Contextual Meanings of Difficult Words /75 - kaṭhinaśabdānāṃ sāndarbhikāḥ arthāḥ /75 - कठिनशब्दानां सान्दर्भिकाः अर्थाः /७५
+
+**उत्तरदीपिका / ७६**
+
+*   Uttaradeepika (Name of a commentary or appendix) /76 - uttaradīpikā / 76 - उत्तरदीपिका / ७६
+
+
 
 
 

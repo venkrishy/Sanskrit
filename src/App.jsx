@@ -5,6 +5,7 @@ import LandingPage from './components/pages/LandingPage'
 import Lessons from './components/pages/Lessons'
 import Practice from './components/pages/Practice'
 import Quiz from './components/pages/Quiz'
+import Settings from './components/Settings'
 
 export const ProgressContext = createContext()
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/lessons/*" element={<Lessons />} />
             <Route path="/practice" element={<Practice />} />
             <Route path="/quiz" element={<Quiz />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </main>
       </div>
