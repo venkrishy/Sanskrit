@@ -1,0 +1,77 @@
+{
+    "filename": "introductions.json",
+    "title": "1.1 Introduction and Names",
+    "concepts": ["Bhavatah Nama", "Bhavatyāḥ Nama", "Mama Nama"],
+    "sections": [
+      {
+        "type": "phrases",
+        "data": [
+          {
+            "sanskrit": "मम नाम सुरेशः",
+            "transliteration": "Mama nāma Sureśaḥ.",
+            "translation": "My name is Suresh."
+          },
+          {
+            "sanskrit": "भवतः नाम किम् ?",
+            "transliteration": "Bhavatah nama kim?",
+            "translation": "What is your name? (to a male)"
+          },
+          {
+            "sanskrit": "मम नाम रामः ।",
+            "transliteration": "Mama nāma Rāmaḥ.",
+            "translation": "My name is Rama."
+          },
+          {
+            "sanskrit": "मम नाम सुरेशः",
+            "transliteration": "Mama nāma Sureśaḥ.",
+            "translation": "My name is Suresh."
+          },
+          {
+            "sanskrit": "भवत्याः नाम किम् ?",
+            "transliteration": "Bhavatyāḥ nāma kim?",
+            "translation": "What is your name? (to a female)"
+          },
+          {
+            "sanskrit": "मम नाम लता ।",
+            "transliteration": "Mama nāma Latā.",
+            "translation": "My name is Lata."
+          },
+          {
+            "sanskrit": "भवतः नाम किम् ?",
+            "transliteration": "Bhavatah nama kim ?",
+            "translation": "What is your name? (to a male)"
+          },
+          {
+            "sanskrit": "मम नाम कृष्णः ।",
+            "transliteration": "Mama nāma Kṛṣṇaḥ.",
+            "translation": "My name is Krishna."
+          },
+          {
+            "sanskrit": "भवत्याः नाम किम् ?",
+            "transliteration": "Bhavatyāḥ nāma kim ?",
+            "translation": "What is your name? (to a female)"
+          },
+          {
+            "sanskrit": "मम नाम राधा ।",
+            "transliteration": "Mama nāma Rādhā.",
+            "translation": "My name is Radha."
+          },
+          {
+            "sanskrit": "एतस्य उत्तरं लिखतु -",
+            "transliteration": "Etasya uttaram likhatu",
+            "translation": "Write the answer to this."
+          },
+          {
+            "sanskrit": "भवतः नाम किम् ?",
+            "transliteration": "Bhavataḥ nāma kim ?",
+            "translation": "What is your name? (to a male)"
+          },
+          {
+            "sanskrit": "भवत्याः नाम किम् ?",
+            "transliteration": "Bhavatyāḥ nāma kim ?",
+            "translation": "What is your name? (to a female)"
+          }
+        ]
+      }
+    ]
+  }

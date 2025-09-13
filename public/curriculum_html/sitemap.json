@@ -1,0 +1,176 @@
+{
+  "/01-foundational/basic_conversations": {
+    "title": "Basic Conversations",
+    "description": "Learn fundamental conversation patterns in Sanskrit",
+    "htmlFile": "foundation/basic_conversations.html",
+    "category": "01-foundational"
+  },
+  "/01-foundational/greetings": {
+    "title": "Greetings",
+    "description": "Common Sanskrit greetings and courtesy expressions",
+    "htmlFile": "foundation/greetings.html",
+    "category": "01-foundational"
+  },
+  "/01-foundational/introductions": {
+    "title": "Introductions",
+    "description": "How to introduce yourself and others in Sanskrit",
+    "htmlFile": "foundation/introductions.html",
+    "category": "01-foundational"
+  },
+  "/02-pronouns/basic_pronouns": {
+    "title": "Basic Pronouns",
+    "description": "Fundamental pronoun forms and usage in Sanskrit",
+    "htmlFile": "pronouns/basic_pronouns.html",
+    "category": "02-pronouns"
+  },
+  "/02-pronouns/demonstrative_pronouns": {
+    "title": "Demonstrative Pronouns",
+    "description": "This, that, these, those in Sanskrit",
+    "htmlFile": "pronouns/demonstrative_pronouns.html",
+    "category": "02-pronouns"
+  },
+  "/02-pronouns/interrogative_pronouns": {
+    "title": "Interrogative Pronouns",
+    "description": "Question words and interrogative forms in Sanskrit",
+    "htmlFile": "pronouns/interrogative_pronouns.html",
+    "category": "02-pronouns"
+  },
+  "/02-pronouns/pronoun_transformations": {
+    "title": "Pronoun Transformations",
+    "description": "Converting pronouns between forms in Sanskrit",
+    "htmlFile": "pronouns/pronoun_transformations.html",
+    "category": "02-pronouns"
+  },
+  "/03-numbers/basic_numbers": {
+    "title": "Basic Numbers",
+    "description": "Numbers 1-10 and basic counting in Sanskrit",
+    "htmlFile": "numbers/basic_numbers.html",
+    "category": "03-numbers"
+  },
+  "/03-numbers/counting_questions": {
+    "title": "Counting Questions",
+    "description": "Asking and answering counting questions in Sanskrit",
+    "htmlFile": "numbers/counting_questions.html",
+    "category": "03-numbers"
+  },
+  "/03-numbers/number_practice": {
+    "title": "Number Practice",
+    "description": "Practice exercises with numbers in Sanskrit",
+    "htmlFile": "numbers/number_practice.html",
+    "category": "03-numbers"
+  },
+  "/04-vocabulary/household_objects": {
+    "title": "Household Objects",
+    "description": "Common household items and objects in Sanskrit",
+    "htmlFile": "vocabulary/household_objects.html",
+    "category": "04-vocabulary"
+  },
+  "/04-vocabulary/kitchen_utensils": {
+    "title": "Kitchen Utensils",
+    "description": "Kitchen and cooking related vocabulary in Sanskrit",
+    "htmlFile": "vocabulary/kitchen_utensils.html",
+    "category": "04-vocabulary"
+  },
+  "/04-vocabulary/workplace_vocabulary": {
+    "title": "Workplace Vocabulary",
+    "description": "Professional and workplace terminology in Sanskrit",
+    "htmlFile": "vocabulary/workplace_vocabulary.html",
+    "category": "04-vocabulary"
+  },
+  "/05-grammar/plural_forms": {
+    "title": "Plural Forms",
+    "description": "Forming plural forms of nouns and pronouns in Sanskrit",
+    "htmlFile": "grammar/plural_forms.html",
+    "category": "05-grammar"
+  },
+  "/05-grammar/plural_forms_advanced": {
+    "title": "Plural Forms Advanced",
+    "description": "Advanced plural form transformations in Sanskrit",
+    "htmlFile": "grammar/plural_forms_advanced.html",
+    "category": "05-grammar"
+  },
+  "/06-time_and_calendar/daily_routines": {
+    "title": "Daily Routines",
+    "description": "Expressing daily activities and routines in Sanskrit",
+    "htmlFile": "time/daily_routines.html",
+    "category": "06-time_and_calendar"
+  },
+  "/06-time_and_calendar/days_and_dates": {
+    "title": "Days and Dates",
+    "description": "Days of the week and date expressions in Sanskrit",
+    "htmlFile": "time/days_and_dates.html",
+    "category": "06-time_and_calendar"
+  },
+  "/06-time_and_calendar/time_expressions": {
+    "title": "Time Expressions",
+    "description": "Complex time expressions and clock time in Sanskrit",
+    "htmlFile": "time/time_expressions.html",
+    "category": "06-time_and_calendar"
+  },
+  "/07-verbs/present_tense_forms": {
+    "title": "Present Tense Forms",
+    "description": "Present tense verb conjugations and usage in Sanskrit",
+    "htmlFile": "verbs/present_tense_forms.html",
+    "category": "07-verbs"
+  },
+  "/07-verbs/imperative_verbs": {
+    "title": "Imperative Verbs",
+    "description": "Imperative mood and command forms in Sanskrit",
+    "htmlFile": "verbs/imperative_verbs.html",
+    "category": "07-verbs"
+  },
+  "/08-directions_and_locations/spatial_relationships": {
+    "title": "Spatial Relationships",
+    "description": "Describing spatial positions and relationships in Sanskrit",
+    "htmlFile": "directions/spatial_relationships.html",
+    "category": "08-directions_and_locations"
+  },
+  "/08-directions_and_locations/travel_vocabulary": {
+    "title": "Travel Vocabulary",
+    "description": "Travel and movement related vocabulary in Sanskrit",
+    "htmlFile": "directions/travel_vocabulary.html",
+    "category": "08-directions_and_locations"
+  },
+  "/09-conversation/basic_dialogues": {
+    "title": "Basic Dialogues",
+    "description": "Simple conversation patterns and dialogues in Sanskrit",
+    "htmlFile": "conversation/basic_dialogues.html",
+    "category": "09-conversation"
+  },
+  "/09-conversation/complex_dialogues": {
+    "title": "Complex Dialogues",
+    "description": "Advanced conversation structures in Sanskrit",
+    "htmlFile": "conversation/complex_dialogues.html",
+    "category": "09-conversation"
+  },
+  "/09-conversation/family_conversations": {
+    "title": "Family Conversations",
+    "description": "Family-related conversation scenarios in Sanskrit",
+    "htmlFile": "conversation/family_conversations.html",
+    "category": "09-conversation"
+  },
+  "/10-advanced/advanced_exercises": {
+    "title": "Advanced Exercises",
+    "description": "Comprehensive advanced practice exercises in Sanskrit",
+    "htmlFile": "advanced/advanced_exercises.html",
+    "category": "10-advanced"
+  },
+  "/10-advanced/grammar_mastery": {
+    "title": "Grammar Mastery",
+    "description": "Advanced grammatical concepts and mastery in Sanskrit",
+    "htmlFile": "advanced/grammar_mastery.html",
+    "category": "10-advanced"
+  },
+  "/10-advanced/reading_comprehension": {
+    "title": "Reading Comprehension",
+    "description": "Reading and understanding Sanskrit texts",
+    "htmlFile": "advanced/reading_comprehension.html",
+    "category": "10-advanced"
+  },
+  "/10-advanced/writing_practice": {
+    "title": "Writing Practice",
+    "description": "Practice writing in Sanskrit",
+    "htmlFile": "advanced/writing_practice.html",
+    "category": "10-advanced"
+  }
+}
