@@ -1,0 +1,10 @@
+# Copilot Automated Dependency Management Instructions
+
+- Always ensure `package.json` and `package-lock.json` are in sync and use compatible versions for all dependencies.
+- If dependency conflicts or install errors occur, automatically:
+  1. Delete `node_modules` and `package-lock.json`.
+  2. Update `package.json` to use only compatible, stable versions (prefer LTS or latest stable for major frameworks like React, Vite, Tailwind, etc.).
+  3. Run `npm install` again.
+- Prefer not to use `--force` or `--legacy-peer-deps` flags unless absolutely necessary.
+- If user requests, proceed with these steps without further confirmation.
+- Document all changes and actions taken in the session.
