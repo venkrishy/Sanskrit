@@ -1,47 +1,215 @@
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { BookmarkIcon } from '@heroicons/react/24/outline'
 import { cn } from '@/lib/utils'
 
-// Table of contents with standardized URLs
+// Table of contents with standardized URLs matching curriculum structure
 const tableOfContents = [
   {
     number: 1,
-    title: "Introduction and Basic Concepts",
+    title: "Foundational",
+    url: "/01-foundational",
     sections: [
       { 
         number: 1, 
-        title: "Basic Introductions",
-        url: "/chapter-01/basic-introductions"
+        title: "Basic Conversations",
+        url: "/01-foundational/basic_conversations"
+      },
+      { 
+        number: 2, 
+        title: "Greetings",
+        url: "/01-foundational/greetings"
+      },
+      { 
+        number: 3, 
+        title: "Introductions",
+        url: "/01-foundational/introductions"
+      }
+    ]
+  },
+  {
+    number: 2,
+    title: "Pronouns",
+    url: "/02-pronouns",
+    sections: [
+      { 
+        number: 1, 
+        title: "Basic Pronouns",
+        url: "/02-pronouns/basic_pronouns"
       },
       { 
         number: 2, 
         title: "Demonstrative Pronouns",
-        url: "/chapter-01/demonstrative-pronouns"
+        url: "/02-pronouns/demonstrative_pronouns"
       },
       { 
         number: 3, 
-        title: "Common Objects",
-        url: "/chapter-01/common-objects"
+        title: "Interrogative Pronouns",
+        url: "/02-pronouns/interrogative_pronouns"
       },
       { 
         number: 4, 
-        title: "Is and Is Not",
-        url: "/chapter-01/is-and-is-not"
+        title: "Pronoun Transformations",
+        url: "/02-pronouns/pronoun_transformations"
+      }
+    ]
+  },
+  {
+    number: 3,
+    title: "Numbers",
+    url: "/03-numbers",
+    sections: [
+      { 
+        number: 1, 
+        title: "Basic Numbers",
+        url: "/03-numbers/basic_numbers"
       },
       { 
-        number: 5, 
-        title: "Here and There",
-        url: "/chapter-01/here-and-there"
+        number: 2, 
+        title: "Counting Questions",
+        url: "/03-numbers/counting_questions"
       },
       { 
-        number: 6, 
-        title: "Locations",
-        url: "/chapter-01/locations"
+        number: 3, 
+        title: "Number Practice",
+        url: "/03-numbers/number_practice"
+      }
+    ]
+  },
+  {
+    number: 4,
+    title: "Vocabulary",
+    url: "/04-vocabulary",
+    sections: [
+      { 
+        number: 1, 
+        title: "Household Objects",
+        url: "/04-vocabulary/household_objects"
       },
       { 
-        number: 7, 
-        title: "Personal Pronouns",
-        url: "/chapter-01/personal-pronouns"
+        number: 2, 
+        title: "Kitchen Utensils",
+        url: "/04-vocabulary/kitchen_utensils"
+      },
+      { 
+        number: 3, 
+        title: "Workplace Vocabulary",
+        url: "/04-vocabulary/workplace_vocabulary"
+      }
+    ]
+  },
+  {
+    number: 5,
+    title: "Grammar",
+    url: "/05-grammar",
+    sections: [
+      { 
+        number: 1, 
+        title: "Plural Forms",
+        url: "/05-grammar/plural_forms"
+      },
+      { 
+        number: 2, 
+        title: "Plural Forms Advanced",
+        url: "/05-grammar/plural_forms_advanced"
+      }
+    ]
+  },
+  {
+    number: 6,
+    title: "Time and Calendar",
+    url: "/06-time_and_calendar",
+    sections: [
+      { 
+        number: 1, 
+        title: "Daily Routines",
+        url: "/06-time_and_calendar/daily_routines"
+      },
+      { 
+        number: 2, 
+        title: "Days and Dates",
+        url: "/06-time_and_calendar/days_and_dates"
+      },
+      { 
+        number: 3, 
+        title: "Time Expressions",
+        url: "/06-time_and_calendar/time_expressions"
+      }
+    ]
+  },
+  {
+    number: 7,
+    title: "Verbs",
+    url: "/07-verbs",
+    sections: [
+      { 
+        number: 1, 
+        title: "Present Tense Forms",
+        url: "/07-verbs/present_tense_forms"
+      }
+    ]
+  },
+  {
+    number: 8,
+    title: "Directions and Locations",
+    url: "/08-directions_and_locations",
+    sections: [
+      { 
+        number: 1, 
+        title: "Spatial Relationships",
+        url: "/08-directions_and_locations/spatial_relationships"
+      },
+      { 
+        number: 2, 
+        title: "Travel Vocabulary",
+        url: "/08-directions_and_locations/travel_vocabulary"
+      }
+    ]
+  },
+  {
+    number: 9,
+    title: "Conversation",
+    url: "/09-conversation",
+    sections: [
+      { 
+        number: 1, 
+        title: "Basic Dialogues",
+        url: "/09-conversation/basic_dialogues"
+      },
+      { 
+        number: 2, 
+        title: "Complex Dialogues",
+        url: "/09-conversation/complex_dialogues"
+      },
+      { 
+        number: 3, 
+        title: "Family Conversations",
+        url: "/09-conversation/family_conversations"
+      }
+    ]
+  },
+  {
+    number: 10,
+    title: "Advanced",
+    url: "/10-advanced",
+    sections: [
+      { 
+        number: 1, 
+        title: "Advanced Exercises",
+        url: "/10-advanced/advanced_exercises"
+      },
+      { 
+        number: 2, 
+        title: "Grammar Mastery",
+        url: "/10-advanced/grammar_mastery"
+      },
+      { 
+        number: 3, 
+        title: "Reading Comprehension",
+        url: "/10-advanced/reading_comprehension"
+      },
+      { 
+        number: 4, 
+        title: "Writing Practice",
+        url: "/10-advanced/writing_practice"
       }
     ]
   }
@@ -97,4 +265,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   )
-} 
+}
