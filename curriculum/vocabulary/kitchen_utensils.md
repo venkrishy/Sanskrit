@@ -1,5 +1,4 @@
 # 4.1 Paakashaala Sambandhi Vastuni - kitchen/cooking utensils 
-Sanskrit, with their transliterations and translations where possible. I'll add relevant comments about each item based on the illustrations.
 
 | Sanskrit | Transliterated | Translated | Comments |
 |----------|---------------|------------|-----------|
