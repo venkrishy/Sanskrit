@@ -1,13 +1,9 @@
-The text below is the table of contents from a  Sanskrit learning book, with various exercises and grammatical concepts organized by chapters. Some entries could not be deciphered by the OCR and have been abbreviated with "..." which I've noted in the comments column. The numbering system uses chapter numbers (like 1.1, 1.2, etc.) followed by sub-sections.  The content covers various grammatical concepts including: Pronouns and their forms, Case endings (especially genitive and locative cases), Verb forms, Question words, Directional and temporal expressions etc.
-
-# अनुक्रमणिका (Table of Contents)
-
-| No. (Arabic) | No. (Devanagari) | Original (Devanagari) | Transliterated | Translated | Comments |
-|-------------|------------------|---------------------|----------------|------------|-----------|
-| 1.1 | १.१ | भवतः नाम, भवत्याः नाम, मम नाम | bhavataḥ nāma, bhavatyāḥ nāma, mama nāma | Your (m.) name, Your (f.) name, My name | Page 1 reference |
-| 1.2 | १.२ | (अ) एष, सः | (a) eṣa, saḥ | This (m.), That (m.) | |
-| 1.2 | १.२ | (आ) एषा, सा | (ā) eṣā, sā | This (f.), That (f.) | |
-| 1.2 | १.२ | (इ) एतत्, तत् | (i) etat, tat | This (n.), That (n.) | |
+1.1.1 - My Name Self Introduction 
+1.1.2 - What is Your name? - masculine - Bhavataha Nama - भवतः नाम 
+1.1.2 - What is Your name? feminine - Bhavatyāḥ nāma - भवत्याः नाम
+1.2.1 - This That - masculine - eṣa saḥ - सः सा
+1.2.2 - This That - feminine - eṣa saḥ - एषा सा 
+1.2 | १.२ | (इ) एतत्, तत् | (i) etat, tat | This (n.), That (n.) | |
 | 1.2 | १.२ | (ई) अहम्, त्वं, सः | (ī) aham, tvaṃ, saḥ | I, You, He | |
 | 1.2 | १.२ | (उ) सः, सा, तत् | (u) saḥ, sā, tat | He, She, It | |
 | 1.2 | १.२ | (ऊ) एषः, एषा, एतत् | (ū) eṣaḥ, eṣā, etat | This (m.), This (f.), This (n.) | |
