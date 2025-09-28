@@ -1,0 +1,1822 @@
+[
+  {
+    "lesson_number": 1,
+    "title": "Lesson 1: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-18",
+    "filename": "lesson_001_01_1.md",
+    "original_file": "curriculum_refactoring/01-1-1 - My Name Self Introduction - Neuter - Mama Nama - mama naaama.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-1-1 - My Name Self Introduction - Neuter - Mama Nama - mama naaama.md"
+    }
+  },
+  {
+    "lesson_number": 2,
+    "title": "Lesson 2: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-19",
+    "filename": "lesson_002_01_2.md",
+    "original_file": "curriculum_refactoring/01-1-2 - What is Your name - masculine - Bhavataha Nama - bhavatah naaama.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-1-2 - What is Your name - masculine - Bhavataha Nama - bhavatah naaama.md"
+    }
+  },
+  {
+    "lesson_number": 3,
+    "title": "Lesson 3: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-20",
+    "filename": "lesson_003_01_2.md",
+    "original_file": "curriculum_refactoring/01-1-2 - What is Your name feminine - Bhavatyaaha naama - bhavatayaaah naaama.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-1-2 - What is Your name feminine - Bhavatyaaha naama - bhavatayaaah naaama.md"
+    }
+  },
+  {
+    "lesson_number": 4,
+    "title": "Lesson 4: 2 What is your name Bhavataha Nama Kim",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-21",
+    "filename": "lesson_004_01_2_What_is_your_name_Bhavataha_Nama_Kim.md",
+    "original_file": "curriculum_refactoring/01-1-2 What is your name Bhavataha Nama Kim.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2 What is your name Bhavataha Nama Kim",
+      "filename": "01-1-2 What is your name Bhavataha Nama Kim.md"
+    }
+  },
+  {
+    "lesson_number": 5,
+    "title": "Lesson 5: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-22",
+    "filename": "lesson_005_01_1.md",
+    "original_file": "curriculum_refactoring/01-10-1 - Verbs - kriyaapadaani - karaiyaaapadaaanai.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-10-1 - Verbs - kriyaapadaani - karaiyaaapadaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 6,
+    "title": "Lesson 6: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-23",
+    "filename": "lesson_006_01_2.md",
+    "original_file": "curriculum_refactoring/01-10-2 - Exercise - abhyaasaha - abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-10-2 - Exercise - abhyaasaha - abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 7,
+    "title": "Lesson 7: you",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-24",
+    "filename": "lesson_007_01_you.md",
+    "original_file": "curriculum_refactoring/01-11- you - tvam - tavam.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "you",
+      "filename": "01-11- you - tvam - tavam.md"
+    }
+  },
+  {
+    "lesson_number": 8,
+    "title": "Lesson 8: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-25",
+    "filename": "lesson_008_01_1.md",
+    "original_file": "curriculum_refactoring/01-12-1 - Necessary Obtained Sufficient - aavaśyakam praaptam paryaaptam - aavashayakama paraaapatama parayaaapatama.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-12-1 - Necessary Obtained Sufficient - aavaśyakam praaptam paryaaptam - aavashayakama paraaapatama parayaaapatama.md"
+    }
+  },
+  {
+    "lesson_number": 9,
+    "title": "Lesson 9: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-26",
+    "filename": "lesson_009_01_2.md",
+    "original_file": "curriculum_refactoring/01-12-2 - Conversation with different intentions - vigatya aaśayenaa sambhaashaanaam - vaigataya aashayaena samabhaaashanama.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-12-2 - Conversation with different intentions - vigatya aaśayenaa sambhaashaanaam - vaigataya aashayaena samabhaaashanama.md"
+    }
+  },
+  {
+    "lesson_number": 10,
+    "title": "Lesson 10: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-27",
+    "filename": "lesson_010_01_1.md",
+    "original_file": "curriculum_refactoring/01-13-1 - Forms of requests Forms of commands - praarthanaarūpaanai aajnyaaarūpaanai - paraaarathanaaarauupaaanai aajanyaaarauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-13-1 - Forms of requests Forms of commands - praarthanaarūpaanai aajnyaaarūpaanai - paraaarathanaaarauupaaanai aajanyaaarauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 11,
+    "title": "Lesson 11: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-28",
+    "filename": "lesson_011_01_2.md",
+    "original_file": "curriculum_refactoring/01-13-2 - Exercise - abhyaasaha - abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-13-2 - Exercise - abhyaasaha - abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 12,
+    "title": "Lesson 12: Technical terms",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-29",
+    "filename": "lesson_012_01_Technical_terms.md",
+    "original_file": "curriculum_refactoring/01-14- Technical terms - saṃjnyaaaha - samjanyaaah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Technical terms",
+      "filename": "01-14- Technical terms - saṃjnyaaaha - samjanyaaah.md"
+    }
+  },
+  {
+    "lesson_number": 13,
+    "title": "Lesson 13: Practice of technical terms",
+    "series": "01 - Foundation",
+    "publish_date": "2025-09-30",
+    "filename": "lesson_013_01_Practice_of_technical_terms.md",
+    "original_file": "curriculum_refactoring/01-15- Practice of technical terms - saṃjnyaaabhyaasaha - samjanyaaabhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Practice of technical terms",
+      "filename": "01-15- Practice of technical terms - saṃjnyaaabhyaasaha - samjanyaaabhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 14,
+    "title": "Lesson 14: Time",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-01",
+    "filename": "lesson_014_01_Time.md",
+    "original_file": "curriculum_refactoring/01-16- Time - samayaha - samayah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Time",
+      "filename": "01-16- Time - samayaha - samayah.md"
+    }
+  },
+  {
+    "lesson_number": 15,
+    "title": "Lesson 15: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-02",
+    "filename": "lesson_015_01_1.md",
+    "original_file": "curriculum_refactoring/01-2-1 - This That - masculine - eshaa saha - sah saaa.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-2-1 - This That - masculine - eshaa saha - sah saaa.md"
+    }
+  },
+  {
+    "lesson_number": 16,
+    "title": "Lesson 16: 1 Using the He pronoun",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-03",
+    "filename": "lesson_016_01_1_Using_the_He_pronoun.md",
+    "original_file": "curriculum_refactoring/01-2-1 Using the He pronoun - Saha and Eshaha.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1 Using the He pronoun",
+      "filename": "01-2-1 Using the He pronoun - Saha and Eshaha.md"
+    }
+  },
+  {
+    "lesson_number": 17,
+    "title": "Lesson 17: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-04",
+    "filename": "lesson_017_01_2.md",
+    "original_file": "curriculum_refactoring/01-2-2 - This That - feminine - eshaa saha - eshaaa saaa.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-2-2 - This That - feminine - eshaa saha - eshaaa saaa.md"
+    }
+  },
+  {
+    "lesson_number": 18,
+    "title": "Lesson 18: 2 Using the She pronoun",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-05",
+    "filename": "lesson_018_01_2_Using_the_She_pronoun.md",
+    "original_file": "curriculum_refactoring/01-2-2 Using the She pronoun - Sa and Eshaa.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2 Using the She pronoun",
+      "filename": "01-2-2 Using the She pronoun - Sa and Eshaa.md"
+    }
+  },
+  {
+    "lesson_number": 19,
+    "title": "Lesson 19: 3",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-06",
+    "filename": "lesson_019_01_3.md",
+    "original_file": "curriculum_refactoring/01-2-3 - This That - neuter - etat tat - etata tata.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "3",
+      "filename": "01-2-3 - This That - neuter - etat tat - etata tata.md"
+    }
+  },
+  {
+    "lesson_number": 20,
+    "title": "Lesson 20: 3 Demonstrative Pronouns This That",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-07",
+    "filename": "lesson_020_01_3_Demonstrative_Pronouns_This_That.md",
+    "original_file": "curriculum_refactoring/01-2-3 Demonstrative Pronouns This That - Etat Tat.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "3 Demonstrative Pronouns This That",
+      "filename": "01-2-3 Demonstrative Pronouns This That - Etat Tat.md"
+    }
+  },
+  {
+    "lesson_number": 21,
+    "title": "Lesson 21: 4",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-08",
+    "filename": "lesson_021_01_4.md",
+    "original_file": "curriculum_refactoring/01-2-4 - I You He - aham tvaṃ saha - aham tavam sah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "4",
+      "filename": "01-2-4 - I You He - aham tvaṃ saha - aham tavam sah.md"
+    }
+  },
+  {
+    "lesson_number": 22,
+    "title": "Lesson 22: 4 Interrogative Pronouns Who What",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-09",
+    "filename": "lesson_022_01_4_Interrogative_Pronouns_Who_What.md",
+    "original_file": "curriculum_refactoring/01-2-4 Interrogative Pronouns Who What - Kah Ka and Kim.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "4 Interrogative Pronouns Who What",
+      "filename": "01-2-4 Interrogative Pronouns Who What - Kah Ka and Kim.md"
+    }
+  },
+  {
+    "lesson_number": 23,
+    "title": "Lesson 23: 5",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-10",
+    "filename": "lesson_023_01_5.md",
+    "original_file": "curriculum_refactoring/01-2-5 - He She It - saha saa tat - sah saaa tata.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "5",
+      "filename": "01-2-5 - He She It - saha saa tat - sah saaa tata.md"
+    }
+  },
+  {
+    "lesson_number": 24,
+    "title": "Lesson 24: 5 Gender match pronouns",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-11",
+    "filename": "lesson_024_01_5_Gender_match_pronouns.md",
+    "original_file": "curriculum_refactoring/01-2-5 Gender match pronouns - Answer Vaa question.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "5 Gender match pronouns",
+      "filename": "01-2-5 Gender match pronouns - Answer Vaa question.md"
+    }
+  },
+  {
+    "lesson_number": 25,
+    "title": "Lesson 25: 6",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-12",
+    "filename": "lesson_025_01_6.md",
+    "original_file": "curriculum_refactoring/01-2-6 - This masculine feminine neuter - eshaaha eshaaa etat - eshah eshaaa etata.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "6",
+      "filename": "01-2-6 - This masculine feminine neuter - eshaaha eshaaa etat - eshah eshaaa etata.md"
+    }
+  },
+  {
+    "lesson_number": 26,
+    "title": "Lesson 26: 6 Transforming Pronouns",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-13",
+    "filename": "lesson_026_01_6_Transforming_Pronouns.md",
+    "original_file": "curriculum_refactoring/01-2-6 Transforming Pronouns - Aham vs Bhavan.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "6 Transforming Pronouns",
+      "filename": "01-2-6 Transforming Pronouns - Aham vs Bhavan.md"
+    }
+  },
+  {
+    "lesson_number": 27,
+    "title": "Lesson 27: 7",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-14",
+    "filename": "lesson_027_01_7.md",
+    "original_file": "curriculum_refactoring/01-2-7 - Exercise - abhyaasaha - abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "7",
+      "filename": "01-2-7 - Exercise - abhyaasaha - abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 28,
+    "title": "Lesson 28: Objects for the practicing yogi",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-15",
+    "filename": "lesson_028_01_Objects_for_the_practicing_yogi.md",
+    "original_file": "curriculum_refactoring/01-3- Objects for the practicing yogi - nirodhayogini vastūni - nairaodhayaogainai vasatauunai.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Objects for the practicing yogi",
+      "filename": "01-3- Objects for the practicing yogi - nirodhayogini vastūni - nairaodhayaogainai vasatauunai.md"
+    }
+  },
+  {
+    "lesson_number": 29,
+    "title": "Lesson 29: Is Is not",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-16",
+    "filename": "lesson_029_01_Is_Is_not.md",
+    "original_file": "curriculum_refactoring/01-4- Is Is not - asti naasti - asatai naaasatai.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Is Is not",
+      "filename": "01-4- Is Is not - asti naasti - asatai naaasatai.md"
+    }
+  },
+  {
+    "lesson_number": 30,
+    "title": "Lesson 30: Here There",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-17",
+    "filename": "lesson_030_01_Here_There.md",
+    "original_file": "curriculum_refactoring/01-5- Here There - atra tatra - atara tatara.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "Here There",
+      "filename": "01-5- Here There - atra tatra - atara tatara.md"
+    }
+  },
+  {
+    "lesson_number": 31,
+    "title": "Lesson 31: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-18",
+    "filename": "lesson_031_01_1.md",
+    "original_file": "curriculum_refactoring/01-6-1 - Everywhere Elsewhere - sarvatra anyatra - saravatara anayatara.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-6-1 - Everywhere Elsewhere - sarvatra anyatra - saravatara anayatara.md"
+    }
+  },
+  {
+    "lesson_number": 32,
+    "title": "Lesson 32: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-19",
+    "filename": "lesson_032_01_2.md",
+    "original_file": "curriculum_refactoring/01-6-2 - Exercise - abhyaasaha - abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-6-2 - Exercise - abhyaasaha - abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 33,
+    "title": "Lesson 33: I Sir Madam",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-20",
+    "filename": "lesson_033_01_I_Sir_Madam.md",
+    "original_file": "curriculum_refactoring/01-7- I Sir Madam - ahaṃ bhavaan bhavatī - aham bhavaaana bhavataii.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "I Sir Madam",
+      "filename": "01-7- I Sir Madam - ahaṃ bhavaan bhavatī - aham bhavaaana bhavataii.md"
+    }
+  },
+  {
+    "lesson_number": 34,
+    "title": "Lesson 34: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-21",
+    "filename": "lesson_034_01_1.md",
+    "original_file": "curriculum_refactoring/01-8-1 - Of this Of that masculine - etasya tasya - etasaya tasaya.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-8-1 - Of this Of that masculine - etasya tasya - etasaya tasaya.md"
+    }
+  },
+  {
+    "lesson_number": 35,
+    "title": "Lesson 35: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-22",
+    "filename": "lesson_035_01_2.md",
+    "original_file": "curriculum_refactoring/01-8-2 - Of this Of that feminine - etasyaaha tasyaaha - etasayaaah tasayaaah.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-8-2 - Of this Of that feminine - etasyaaha tasyaaha - etasayaaah tasayaaah.md"
+    }
+  },
+  {
+    "lesson_number": 36,
+    "title": "Lesson 36: 1",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-23",
+    "filename": "lesson_036_01_1.md",
+    "original_file": "curriculum_refactoring/01-9-1 - Exercise Genitive case - abhyaasaha shaashatahī - abhayaaasah shashathaii.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "1",
+      "filename": "01-9-1 - Exercise Genitive case - abhyaasaha shaashatahī - abhayaaasah shashathaii.md"
+    }
+  },
+  {
+    "lesson_number": 37,
+    "title": "Lesson 37: 2",
+    "series": "01 - Foundation",
+    "publish_date": "2025-10-24",
+    "filename": "lesson_037_01_2.md",
+    "original_file": "curriculum_refactoring/01-9-2 - Exercise Genitive case - abhyaasaha shaashatahī - abhayaaasah shashathaii.md",
+    "lesson_info": {
+      "lesson_number": "01",
+      "category": "Foundation",
+      "title": "2",
+      "filename": "01-9-2 - Exercise Genitive case - abhyaasaha shaashatahī - abhayaaasah shashathaii.md"
+    }
+  },
+  {
+    "lesson_number": 38,
+    "title": "Lesson 38: Kitchen",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-25",
+    "filename": "lesson_038_04_Kitchen.md",
+    "original_file": "curriculum_refactoring/04-1- Kitchen-related objects - paakaśaalaasambhandhīni vastūni - paaakashaaalaaasamabanadhaiinai vasatauunai.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "Kitchen",
+      "filename": "04-1- Kitchen-related objects - paakaśaalaasambhandhīni vastūni - paaakashaaalaaasamabanadhaiinai vasatauunai.md"
+    }
+  },
+  {
+    "lesson_number": 39,
+    "title": "Lesson 39: 04-1Kitchen Related Vocabulary",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-26",
+    "filename": "lesson_039_04_04-1Kitchen_Related_Vocabulary.md",
+    "original_file": "curriculum_refactoring/04-1Kitchen Related Vocabulary.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "04-1Kitchen Related Vocabulary",
+      "filename": "04-1Kitchen Related Vocabulary.md"
+    }
+  },
+  {
+    "lesson_number": 40,
+    "title": "Lesson 40: 1",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-27",
+    "filename": "lesson_040_04_1.md",
+    "original_file": "curriculum_refactoring/04-2-1 - Plural forms - bahuvacanarūpaanai - bahauvachana rauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "1",
+      "filename": "04-2-1 - Plural forms - bahuvacanarūpaanai - bahauvachana rauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 41,
+    "title": "Lesson 41: 2",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-28",
+    "filename": "lesson_041_04_2.md",
+    "original_file": "curriculum_refactoring/04-2-2 - Exercise Pronouns - abhyaasaha sarvanaama - abhayaaasah saravanaaama.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "2",
+      "filename": "04-2-2 - Exercise Pronouns - abhyaasaha sarvanaama - abhayaaasah saravanaaama.md"
+    }
+  },
+  {
+    "lesson_number": 42,
+    "title": "Lesson 42: 3",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-29",
+    "filename": "lesson_042_04_3.md",
+    "original_file": "curriculum_refactoring/04-2-3 - Writing plural forms - bahuvacana rūpaanaī lekhanam - bahauvachana rauupaaanaii laekhanama.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "3",
+      "filename": "04-2-3 - Writing plural forms - bahuvacana rūpaanaī lekhanam - bahauvachana rauupaaanaii laekhanama.md"
+    }
+  },
+  {
+    "lesson_number": 43,
+    "title": "Lesson 43: 4",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-30",
+    "filename": "lesson_043_04_4.md",
+    "original_file": "curriculum_refactoring/04-2-4 - Sir-Sirs Madam-Madams I-We - bhavaan bhavantaha bhavatī bhavatyaha aham vayam - bhavaaana bhavanatah bhavataii bhavatayah ahama vayama.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "4",
+      "filename": "04-2-4 - Sir-Sirs Madam-Madams I-We - bhavaan bhavantaha bhavatī bhavatyaha aham vayam - bhavaaana bhavanatah bhavataii bhavatayah ahama vayama.md"
+    }
+  },
+  {
+    "lesson_number": 44,
+    "title": "Lesson 44: 5",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-10-31",
+    "filename": "lesson_044_04_5.md",
+    "original_file": "curriculum_refactoring/04-2-5 - Exercise Sir - abhyaasaha bhavaan - abhayaaasah bhavaaana.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "5",
+      "filename": "04-2-5 - Exercise Sir - abhyaasaha bhavaan - abhayaaasah bhavaaana.md"
+    }
+  },
+  {
+    "lesson_number": 45,
+    "title": "Lesson 45: 6",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-01",
+    "filename": "lesson_045_04_6.md",
+    "original_file": "curriculum_refactoring/04-2-6 - Writing questions Verbs - praśna lekhanam kriyaapadaani - parashana laekhanama karaiyaaapadaaanai.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "6",
+      "filename": "04-2-6 - Writing questions Verbs - praśna lekhanam kriyaapadaani - parashana laekhanama karaiyaaapadaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 46,
+    "title": "Lesson 46: 04-2Workplace Vocabulary",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-02",
+    "filename": "lesson_046_04_04-2Workplace_Vocabulary.md",
+    "original_file": "curriculum_refactoring/04-2Workplace Vocabulary.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "04-2Workplace Vocabulary",
+      "filename": "04-2Workplace Vocabulary.md"
+    }
+  },
+  {
+    "lesson_number": 47,
+    "title": "Lesson 47: 1",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-03",
+    "filename": "lesson_047_04_1.md",
+    "original_file": "curriculum_refactoring/04-3-1 - Verbs Plural - kriyaapadaani ba.va. - karaiyaaapadaaanai ba.va..md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "1",
+      "filename": "04-3-1 - Verbs Plural - kriyaapadaani ba.va. - karaiyaaapadaaanai ba.va..md"
+    }
+  },
+  {
+    "lesson_number": 48,
+    "title": "Lesson 48: 2",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-04",
+    "filename": "lesson_048_04_2.md",
+    "original_file": "curriculum_refactoring/04-3-2 - Exercise Request - abhyaasaha praarthanaa - abhayaaasah paraaarathanaaa.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "2",
+      "filename": "04-3-2 - Exercise Request - abhyaasaha praarthanaa - abhayaaasah paraaarathanaaa.md"
+    }
+  },
+  {
+    "lesson_number": 49,
+    "title": "Lesson 49: 3",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-05",
+    "filename": "lesson_049_04_3.md",
+    "original_file": "curriculum_refactoring/04-3-3 - Exercise Masculine - abhyaasaha u. pu. - abhayaaasah u. pau..md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "3",
+      "filename": "04-3-3 - Exercise Masculine - abhyaasaha u. pu. - abhayaaasah u. pau..md"
+    }
+  },
+  {
+    "lesson_number": 50,
+    "title": "Lesson 50: Special exercise",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-06",
+    "filename": "lesson_050_04_Special_exercise.md",
+    "original_file": "curriculum_refactoring/04-4- Special exercise - viśeshaaabhyaasaha - vaishaeshaaabhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "Special exercise",
+      "filename": "04-4- Special exercise - viśeshaaabhyaasaha - vaishaeshaaabhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 51,
+    "title": "Lesson 51: How many",
+    "series": "04 - Grammar & Vocabulary",
+    "publish_date": "2025-11-07",
+    "filename": "lesson_051_04_How_many.md",
+    "original_file": "curriculum_refactoring/04-5- How many - kati - katai.md",
+    "lesson_info": {
+      "lesson_number": "04",
+      "category": "Grammar & Vocabulary",
+      "title": "How many",
+      "filename": "04-5- How many - kati - katai.md"
+    }
+  },
+  {
+    "lesson_number": 52,
+    "title": "Lesson 52: Exercise Locative case",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-08",
+    "filename": "lesson_052_05_Exercise_Locative_case.md",
+    "original_file": "curriculum_refactoring/05-1- Exercise Locative case - abhyaasaha saptamīvibhaktiha - abhayaaasah sapatamaiivaibhakataih.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "Exercise Locative case",
+      "filename": "05-1- Exercise Locative case - abhyaasaha saptamīvibhaktiha - abhayaaasah sapatamaiivaibhakataih.md"
+    }
+  },
+  {
+    "lesson_number": 53,
+    "title": "Lesson 53: 05-1Verbs - Where - Kutra",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-09",
+    "filename": "lesson_053_05_05-1Verbs_-_Where_-_Kutra.md",
+    "original_file": "curriculum_refactoring/05-1Verbs - Where - Kutra.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "05-1Verbs - Where - Kutra",
+      "filename": "05-1Verbs - Where - Kutra.md"
+    }
+  },
+  {
+    "lesson_number": 54,
+    "title": "Lesson 54: Exercise Locative case",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-10",
+    "filename": "lesson_054_05_Exercise_Locative_case.md",
+    "original_file": "curriculum_refactoring/05-2- Exercise Locative case - abhyaasaha saptamīvibhaktiha - abhayaaasah sapatamaiivaibhakataih.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "Exercise Locative case",
+      "filename": "05-2- Exercise Locative case - abhyaasaha saptamīvibhaktiha - abhayaaasah sapatamaiivaibhakataih.md"
+    }
+  },
+  {
+    "lesson_number": 55,
+    "title": "Lesson 55: Filling in the blanks",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-11",
+    "filename": "lesson_055_05_Filling_in_the_blanks.md",
+    "original_file": "curriculum_refactoring/05-3- Filling in the blanks - padasamputaapūranaam - padasamapautapauuranama.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "Filling in the blanks",
+      "filename": "05-3- Filling in the blanks - padasamputaapūranaam - padasamapautapauuranama.md"
+    }
+  },
+  {
+    "lesson_number": 56,
+    "title": "Lesson 56: 1",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-12",
+    "filename": "lesson_056_05_1.md",
+    "original_file": "curriculum_refactoring/05-4-1 - When - kadaa - kadaaa.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "1",
+      "filename": "05-4-1 - When - kadaa - kadaaa.md"
+    }
+  },
+  {
+    "lesson_number": 57,
+    "title": "Lesson 57: 2",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-13",
+    "filename": "lesson_057_05_2.md",
+    "original_file": "curriculum_refactoring/05-4-2 - Exercise - abhyaasaha - abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "2",
+      "filename": "05-4-2 - Exercise - abhyaasaha - abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 58,
+    "title": "Lesson 58: Yesterday Today Tomorrow",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-14",
+    "filename": "lesson_058_05_Yesterday_Today_Tomorrow.md",
+    "original_file": "curriculum_refactoring/05-5- Yesterday Today Tomorrow - hyaha adya śvaha - hayah adaya shavah.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "Yesterday Today Tomorrow",
+      "filename": "05-5- Yesterday Today Tomorrow - hyaha adya śvaha - hayah adaya shavah.md"
+    }
+  },
+  {
+    "lesson_number": 59,
+    "title": "Lesson 59: Exercise Today Tomorrow",
+    "series": "05 - Time & Location",
+    "publish_date": "2025-11-15",
+    "filename": "lesson_059_05_Exercise_Today_Tomorrow.md",
+    "original_file": "curriculum_refactoring/05-6- Exercise Today Tomorrow - abhyaasaha adya śvaha - abhayaaasah adaya shavah.md",
+    "lesson_info": {
+      "lesson_number": "05",
+      "category": "Time & Location",
+      "title": "Exercise Today Tomorrow",
+      "filename": "05-6- Exercise Today Tomorrow - abhyaasaha adya śvaha - abhayaaasah adaya shavah.md"
+    }
+  },
+  {
+    "lesson_number": 60,
+    "title": "Lesson 60: Hari Om Good morning",
+    "series": "06 - Greetings",
+    "publish_date": "2025-11-16",
+    "filename": "lesson_060_06_Hari_Om_Good_morning.md",
+    "original_file": "curriculum_refactoring/06-1- Hari Om Good morning - hariha om suprabhaatam - haraih oma sauparabhaaatama.md",
+    "lesson_info": {
+      "lesson_number": "06",
+      "category": "Greetings",
+      "title": "Hari Om Good morning",
+      "filename": "06-1- Hari Om Good morning - hariha om suprabhaatam - haraih oma sauparabhaaatama.md"
+    }
+  },
+  {
+    "lesson_number": 61,
+    "title": "Lesson 61: Accusative case",
+    "series": "07 - Accusative Case",
+    "publish_date": "2025-11-17",
+    "filename": "lesson_061_07_Accusative_case.md",
+    "original_file": "curriculum_refactoring/07-1- Accusative case - dvitīyaavibhaktiha - davaitaiiyaaavaibhakataih.md",
+    "lesson_info": {
+      "lesson_number": "07",
+      "category": "Accusative Case",
+      "title": "Accusative case",
+      "filename": "07-1- Accusative case - dvitīyaavibhaktiha - davaitaiiyaaavaibhakataih.md"
+    }
+  },
+  {
+    "lesson_number": 62,
+    "title": "Lesson 62: Fill in the blanks Accusative",
+    "series": "07 - Accusative Case",
+    "publish_date": "2025-11-18",
+    "filename": "lesson_062_07_Fill_in_the_blanks_Accusative.md",
+    "original_file": "curriculum_refactoring/07-2- Fill in the blanks Accusative - riktasthalapūranaam dvitīyaa - raikatasathalapauuranama davaitaiiyaaa.md",
+    "lesson_info": {
+      "lesson_number": "07",
+      "category": "Accusative Case",
+      "title": "Fill in the blanks Accusative",
+      "filename": "07-2- Fill in the blanks Accusative - riktasthalapūranaam dvitīyaa - raikatasathalapauuranama davaitaiiyaaa.md"
+    }
+  },
+  {
+    "lesson_number": 63,
+    "title": "Lesson 63: Son Nourished",
+    "series": "08 - Family & Relationships",
+    "publish_date": "2025-11-19",
+    "filename": "lesson_063_08_Son_Nourished.md",
+    "original_file": "curriculum_refactoring/08-1- Son Nourished - putaha pushataaha - pautah paushatah.md",
+    "lesson_info": {
+      "lesson_number": "08",
+      "category": "Family & Relationships",
+      "title": "Son Nourished",
+      "filename": "08-1- Son Nourished - putaha pushataaha - pautah paushatah.md"
+    }
+  },
+  {
+    "lesson_number": 64,
+    "title": "Lesson 64: 1",
+    "series": "08 - Family & Relationships",
+    "publish_date": "2025-11-20",
+    "filename": "lesson_064_08_1.md",
+    "original_file": "curriculum_refactoring/08-2-1 - Exercise Son From left - abhyaasaha putaha vaamataha - abhayaaasah pautah vaaamatah.md",
+    "lesson_info": {
+      "lesson_number": "08",
+      "category": "Family & Relationships",
+      "title": "1",
+      "filename": "08-2-1 - Exercise Son From left - abhyaasaha putaha vaamataha - abhayaaasah pautah vaaamatah.md"
+    }
+  },
+  {
+    "lesson_number": 65,
+    "title": "Lesson 65: 2",
+    "series": "08 - Family & Relationships",
+    "publish_date": "2025-11-21",
+    "filename": "lesson_065_08_2.md",
+    "original_file": "curriculum_refactoring/08-2-2 - Exercise Son From left - abhyaasaha putaha vaamataha - abhayaaasah pautah vaaamatah.md",
+    "lesson_info": {
+      "lesson_number": "08",
+      "category": "Family & Relationships",
+      "title": "2",
+      "filename": "08-2-2 - Exercise Son From left - abhyaasaha putaha vaamataha - abhayaaasah pautah vaaamatah.md"
+    }
+  },
+  {
+    "lesson_number": 66,
+    "title": "Lesson 66: 3",
+    "series": "08 - Family & Relationships",
+    "publish_date": "2025-11-22",
+    "filename": "lesson_066_08_3.md",
+    "original_file": "curriculum_refactoring/08-2-3 - Inside Outside - antaha bahiha - anatah bahaih.md",
+    "lesson_info": {
+      "lesson_number": "08",
+      "category": "Family & Relationships",
+      "title": "3",
+      "filename": "08-2-3 - Inside Outside - antaha bahiha - anatah bahaih.md"
+    }
+  },
+  {
+    "lesson_number": 67,
+    "title": "Lesson 67: Done from",
+    "series": "09 - Past Tense",
+    "publish_date": "2025-11-23",
+    "filename": "lesson_067_09_Done_from.md",
+    "original_file": "curriculum_refactoring/09-1- Done from - kritaha taha - karitah tah.md",
+    "lesson_info": {
+      "lesson_number": "09",
+      "category": "Past Tense",
+      "title": "Done from",
+      "filename": "09-1- Done from - kritaha taha - karitah tah.md"
+    }
+  },
+  {
+    "lesson_number": 68,
+    "title": "Lesson 68: Exercise From here From there Done",
+    "series": "09 - Past Tense",
+    "publish_date": "2025-11-24",
+    "filename": "lesson_068_09_Exercise_From_here_From_there_Done.md",
+    "original_file": "curriculum_refactoring/09-2- Exercise From here From there Done - abhyaasaha itaha tataha kritaha - abhayaaasah itah tatah karitah.md",
+    "lesson_info": {
+      "lesson_number": "09",
+      "category": "Past Tense",
+      "title": "Exercise From here From there Done",
+      "filename": "09-2- Exercise From here From there Done - abhyaasaha itaha tataha kritaha - abhayaaasah itah tatah karitah.md"
+    }
+  },
+  {
+    "lesson_number": 69,
+    "title": "Lesson 69: 1",
+    "series": "10 - Adverbs & Questions",
+    "publish_date": "2025-11-25",
+    "filename": "lesson_069_10_1.md",
+    "original_file": "curriculum_refactoring/10-1-1 - Quickly Slowly - śīghram mandam - shaiigharama manadama.md",
+    "lesson_info": {
+      "lesson_number": "10",
+      "category": "Adverbs & Questions",
+      "title": "1",
+      "filename": "10-1-1 - Quickly Slowly - śīghram mandam - shaiigharama manadama.md"
+    }
+  },
+  {
+    "lesson_number": 70,
+    "title": "Lesson 70: 2",
+    "series": "10 - Adverbs & Questions",
+    "publish_date": "2025-11-26",
+    "filename": "lesson_070_10_2.md",
+    "original_file": "curriculum_refactoring/10-1-2 - Exercise Quickly Slowly - abhyaasaha śīghram mandam - abhayaaasah shaiigharama manadama.md",
+    "lesson_info": {
+      "lesson_number": "10",
+      "category": "Adverbs & Questions",
+      "title": "2",
+      "filename": "10-1-2 - Exercise Quickly Slowly - abhyaasaha śīghram mandam - abhayaaasah shaiigharama manadama.md"
+    }
+  },
+  {
+    "lesson_number": 71,
+    "title": "Lesson 71: 3",
+    "series": "10 - Adverbs & Questions",
+    "publish_date": "2025-11-27",
+    "filename": "lesson_071_10_3.md",
+    "original_file": "curriculum_refactoring/10-1-3 - How - katham - kathama.md",
+    "lesson_info": {
+      "lesson_number": "10",
+      "category": "Adverbs & Questions",
+      "title": "3",
+      "filename": "10-1-3 - How - katham - kathama.md"
+    }
+  },
+  {
+    "lesson_number": 72,
+    "title": "Lesson 72: 4",
+    "series": "10 - Adverbs & Questions",
+    "publish_date": "2025-11-28",
+    "filename": "lesson_072_10_4.md",
+    "original_file": "curriculum_refactoring/10-1-4 - Exercise How - abhyaasaha katham - abhayaaasah kathama.md",
+    "lesson_info": {
+      "lesson_number": "10",
+      "category": "Adverbs & Questions",
+      "title": "4",
+      "filename": "10-1-4 - Exercise How - abhyaasaha katham - abhayaaasah kathama.md"
+    }
+  },
+  {
+    "lesson_number": 73,
+    "title": "Lesson 73: Why",
+    "series": "10 - Adverbs & Questions",
+    "publish_date": "2025-11-29",
+    "filename": "lesson_073_10_Why.md",
+    "original_file": "curriculum_refactoring/10-2- Why - kimartham - kaimarathama.md",
+    "lesson_info": {
+      "lesson_number": "10",
+      "category": "Adverbs & Questions",
+      "title": "Why",
+      "filename": "10-2- Why - kimartham - kaimarathama.md"
+    }
+  },
+  {
+    "lesson_number": 74,
+    "title": "Lesson 74: Past tense forms",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-11-30",
+    "filename": "lesson_074_11_Past_tense_forms.md",
+    "original_file": "curriculum_refactoring/11-1- Past tense forms - bhūtakaalarūpaanai - bhauutakaaalarauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "Past tense forms",
+      "filename": "11-1- Past tense forms - bhūtakaalarūpaanai - bhauutakaaalarauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 75,
+    "title": "Lesson 75: Forms of to be present and past",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-12-01",
+    "filename": "lesson_075_11_Forms_of_to_be_present_and_past.md",
+    "original_file": "curriculum_refactoring/11-2- Forms of to be present and past - asti santi asmi smaha aasīt aasan aasam aasma - asatai sanatai asamai samah aasaiita aasana aasama aasama.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "Forms of to be present and past",
+      "filename": "11-2- Forms of to be present and past - asti santi asmi smaha aasīt aasan aasam aasma - asatai sanatai asamai samah aasaiita aasana aasama aasama.md"
+    }
+  },
+  {
+    "lesson_number": 76,
+    "title": "Lesson 76: 1",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-12-02",
+    "filename": "lesson_076_11_1.md",
+    "original_file": "curriculum_refactoring/11-3-1 - Story formation - kathaagatahanam - kathaaagathanama.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "1",
+      "filename": "11-3-1 - Story formation - kathaagatahanam - kathaaagathanama.md"
+    }
+  },
+  {
+    "lesson_number": 77,
+    "title": "Lesson 77: 2",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-12-03",
+    "filename": "lesson_077_11_2.md",
+    "original_file": "curriculum_refactoring/11-3-2 - Exercise on converting verbs to past tense - kriyaapadaanaaṃ bhūtakaalarūpaanai parivartanaabhyaasaha - karaiyaaapadaaanaaam bhauutakaaalarauupaaanai paraivaratanaaabhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "2",
+      "filename": "11-3-2 - Exercise on converting verbs to past tense - kriyaapadaanaaṃ bhūtakaalarūpaanai parivartanaabhyaasaha - karaiyaaapadaaanaaam bhauutakaaalarauupaaanai paraivaratanaaabhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 78,
+    "title": "Lesson 78: 3",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-12-04",
+    "filename": "lesson_078_11_3.md",
+    "original_file": "curriculum_refactoring/11-3-3 - Exercise Past tense - abhyaasaha bhūtakaalaha - abhayaaasah bhauutakaaalah.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "3",
+      "filename": "11-3-3 - Exercise Past tense - abhyaasaha bhūtakaalaha - abhayaaasah bhauutakaaalah.md"
+    }
+  },
+  {
+    "lesson_number": 79,
+    "title": "Lesson 79: 4",
+    "series": "11 - Past Tense Forms",
+    "publish_date": "2025-12-05",
+    "filename": "lesson_079_11_4.md",
+    "original_file": "curriculum_refactoring/11-3-4 - Exercise Past tense - abhyaasaha bhūtakaalaha - abhayaaasah bhauutakaaalah.md",
+    "lesson_info": {
+      "lesson_number": "11",
+      "category": "Past Tense Forms",
+      "title": "4",
+      "filename": "11-3-4 - Exercise Past tense - abhyaasaha bhūtakaalaha - abhayaaasah bhauutakaaalah.md"
+    }
+  },
+  {
+    "lesson_number": 80,
+    "title": "Lesson 80: Future tense forms",
+    "series": "12 - Future Tense",
+    "publish_date": "2025-12-06",
+    "filename": "lesson_080_12_Future_tense_forms.md",
+    "original_file": "curriculum_refactoring/12-1- Future tense forms - bhavishayatkaalarūpaanai - bhavaishayatakaaalarauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "12",
+      "category": "Future Tense",
+      "title": "Future tense forms",
+      "filename": "12-1- Future tense forms - bhavishayatkaalarūpaanai - bhavaishayatakaaalarauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 81,
+    "title": "Lesson 81: Special forms Future",
+    "series": "12 - Future Tense",
+    "publish_date": "2025-12-07",
+    "filename": "lesson_081_12_Special_forms_Future.md",
+    "original_file": "curriculum_refactoring/12-2- Special forms Future - viśeshaarūpaanai bhavi. - vaishaesharauupaaanai bhavai..md",
+    "lesson_info": {
+      "lesson_number": "12",
+      "category": "Future Tense",
+      "title": "Special forms Future",
+      "filename": "12-2- Special forms Future - viśeshaarūpaanai bhavi. - vaishaesharauupaaanai bhavai..md"
+    }
+  },
+  {
+    "lesson_number": 82,
+    "title": "Lesson 82: Vocative forms",
+    "series": "13 - Vocative Forms",
+    "publish_date": "2025-12-08",
+    "filename": "lesson_082_13_Vocative_forms.md",
+    "original_file": "curriculum_refactoring/13-1- Vocative forms - sambodhanarūpaanai - samabaodhanarauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "13",
+      "category": "Vocative Forms",
+      "title": "Vocative forms",
+      "filename": "13-1- Vocative forms - sambodhanarūpaanai - samabaodhanarauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 83,
+    "title": "Lesson 83: Exercise Vocative forms",
+    "series": "13 - Vocative Forms",
+    "publish_date": "2025-12-09",
+    "filename": "lesson_083_13_Exercise_Vocative_forms.md",
+    "original_file": "curriculum_refactoring/13-2- Exercise Vocative forms - abhyaasaha sambodhanarūpaanai - abhayaaasah samabaodhanarauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "13",
+      "category": "Vocative Forms",
+      "title": "Exercise Vocative forms",
+      "filename": "13-2- Exercise Vocative forms - abhyaasaha sambodhanarūpaanai - abhayaaasah samabaodhanarauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 84,
+    "title": "Lesson 84: If then",
+    "series": "14 - Conditional",
+    "publish_date": "2025-12-10",
+    "filename": "lesson_084_14_If_then.md",
+    "original_file": "curriculum_refactoring/14-1- If then - yadi tarhi - yadai tarahai.md",
+    "lesson_info": {
+      "lesson_number": "14",
+      "category": "Conditional",
+      "title": "If then",
+      "filename": "14-1- If then - yadi tarhi - yadai tarahai.md"
+    }
+  },
+  {
+    "lesson_number": 85,
+    "title": "Lesson 85: And Indeed Thus Also",
+    "series": "15 - Conjunctions",
+    "publish_date": "2025-12-11",
+    "filename": "lesson_085_15_And_Indeed_Thus_Also.md",
+    "original_file": "curriculum_refactoring/15-1- And Indeed Thus Also - ca eva iti api - cha eva itai apai.md",
+    "lesson_info": {
+      "lesson_number": "15",
+      "category": "Conjunctions",
+      "title": "And Indeed Thus Also",
+      "filename": "15-1- And Indeed Thus Also - ca eva iti api - cha eva itai apai.md"
+    }
+  },
+  {
+    "lesson_number": 86,
+    "title": "Lesson 86: Exercise And Indeed Thus Also",
+    "series": "15 - Conjunctions",
+    "publish_date": "2025-12-12",
+    "filename": "lesson_086_15_Exercise_And_Indeed_Thus_Also.md",
+    "original_file": "curriculum_refactoring/15-2- Exercise And Indeed Thus Also - abhyaasaha ca eva iti api - abhayaaasah cha eva itai apai.md",
+    "lesson_info": {
+      "lesson_number": "15",
+      "category": "Conjunctions",
+      "title": "Exercise And Indeed Thus Also",
+      "filename": "15-2- Exercise And Indeed Thus Also - abhyaasaha ca eva iti api - abhayaaasah cha eva itai apai.md"
+    }
+  },
+  {
+    "lesson_number": 87,
+    "title": "Lesson 87: 1",
+    "series": "16 - Time Expressions",
+    "publish_date": "2025-12-13",
+    "filename": "lesson_087_16_1.md",
+    "original_file": "curriculum_refactoring/16-1-1 - From Until - taha paryantam - tah parayanatama.md",
+    "lesson_info": {
+      "lesson_number": "16",
+      "category": "Time Expressions",
+      "title": "1",
+      "filename": "16-1-1 - From Until - taha paryantam - tah parayanatama.md"
+    }
+  },
+  {
+    "lesson_number": 88,
+    "title": "Lesson 88: 2",
+    "series": "16 - Time Expressions",
+    "publish_date": "2025-12-14",
+    "filename": "lesson_088_16_2.md",
+    "original_file": "curriculum_refactoring/16-1-2 - Exercise From Until - abhyaasaha taha paryantam - abhayaaasah tah parayanatama.md",
+    "lesson_info": {
+      "lesson_number": "16",
+      "category": "Time Expressions",
+      "title": "2",
+      "filename": "16-1-2 - Exercise From Until - abhyaasaha taha paryantam - abhayaaasah tah parayanatama.md"
+    }
+  },
+  {
+    "lesson_number": 89,
+    "title": "Lesson 89: 3",
+    "series": "16 - Time Expressions",
+    "publish_date": "2025-12-15",
+    "filename": "lesson_089_16_3.md",
+    "original_file": "curriculum_refactoring/16-1-3 - Beginning from now Beginning from tomorrow - atha aarabhya kshaaha aarabhya ityaadayaha - atha aarabhaya kashah aarabhaya itayaaadayah.md",
+    "lesson_info": {
+      "lesson_number": "16",
+      "category": "Time Expressions",
+      "title": "3",
+      "filename": "16-1-3 - Beginning from now Beginning from tomorrow - atha aarabhya kshaaha aarabhya ityaadayaha - atha aarabhaya kashah aarabhaya itayaaadayah.md"
+    }
+  },
+  {
+    "lesson_number": 90,
+    "title": "Lesson 90: When Then",
+    "series": "17 - When/Then",
+    "publish_date": "2025-12-16",
+    "filename": "lesson_090_17_When_Then.md",
+    "original_file": "curriculum_refactoring/17-1- When Then - yadaa tadaa - yadaaa tadaaa.md",
+    "lesson_info": {
+      "lesson_number": "17",
+      "category": "When/Then",
+      "title": "When Then",
+      "filename": "17-1- When Then - yadaa tadaa - yadaaa tadaaa.md"
+    }
+  },
+  {
+    "lesson_number": 91,
+    "title": "Lesson 91: One Two Three Four",
+    "series": "18 - Numbers",
+    "publish_date": "2025-12-17",
+    "filename": "lesson_091_18_One_Two_Three_Four.md",
+    "original_file": "curriculum_refactoring/18-1- One Two Three Four - ekam dve trīnai catvaari - ekama davae taraiinai chatavaaarai.md",
+    "lesson_info": {
+      "lesson_number": "18",
+      "category": "Numbers",
+      "title": "One Two Three Four",
+      "filename": "18-1- One Two Three Four - ekam dve trīnai catvaari - ekama davae taraiinai chatavaaarai.md"
+    }
+  },
+  {
+    "lesson_number": 92,
+    "title": "Lesson 92: Exercise Numbers",
+    "series": "18 - Numbers",
+    "publish_date": "2025-12-18",
+    "filename": "lesson_092_18_Exercise_Numbers.md",
+    "original_file": "curriculum_refactoring/18-2- Exercise Numbers - abhyaasaha sangakhyaa - abhayaaasah sangakhayaaa.md",
+    "lesson_info": {
+      "lesson_number": "18",
+      "category": "Numbers",
+      "title": "Exercise Numbers",
+      "filename": "18-2- Exercise Numbers - abhyaasaha sangakhyaa - abhayaaasah sangakhayaaa.md"
+    }
+  },
+  {
+    "lesson_number": 93,
+    "title": "Lesson 93: Instrumental case",
+    "series": "19 - Instrumental Case",
+    "publish_date": "2025-12-19",
+    "filename": "lesson_093_19_Instrumental_case.md",
+    "original_file": "curriculum_refactoring/19-1- Instrumental case - tritīyaavibhaktiha - taritaiiyaaavaibhakataih.md",
+    "lesson_info": {
+      "lesson_number": "19",
+      "category": "Instrumental Case",
+      "title": "Instrumental case",
+      "filename": "19-1- Instrumental case - tritīyaavibhaktiha - taritaiiyaaavaibhakataih.md"
+    }
+  },
+  {
+    "lesson_number": 94,
+    "title": "Lesson 94: 1",
+    "series": "19 - Instrumental Case",
+    "publish_date": "2025-12-20",
+    "filename": "lesson_094_19_1.md",
+    "original_file": "curriculum_refactoring/19-2-1 - With - saha - saha.md",
+    "lesson_info": {
+      "lesson_number": "19",
+      "category": "Instrumental Case",
+      "title": "1",
+      "filename": "19-2-1 - With - saha - saha.md"
+    }
+  },
+  {
+    "lesson_number": 95,
+    "title": "Lesson 95: 2",
+    "series": "19 - Instrumental Case",
+    "publish_date": "2025-12-21",
+    "filename": "lesson_095_19_2.md",
+    "original_file": "curriculum_refactoring/19-2-2 - Exercise With - abhyaasaha saha - abhayaaasah saha.md",
+    "lesson_info": {
+      "lesson_number": "19",
+      "category": "Instrumental Case",
+      "title": "2",
+      "filename": "19-2-2 - Exercise With - abhyaasaha saha - abhayaaasah saha.md"
+    }
+  },
+  {
+    "lesson_number": 96,
+    "title": "Lesson 96: Without",
+    "series": "19 - Instrumental Case",
+    "publish_date": "2025-12-22",
+    "filename": "lesson_096_19_Without.md",
+    "original_file": "curriculum_refactoring/19-3- Without - vinaa - vainaaa.md",
+    "lesson_info": {
+      "lesson_number": "19",
+      "category": "Instrumental Case",
+      "title": "Without",
+      "filename": "19-3- Without - vinaa - vainaaa.md"
+    }
+  },
+  {
+    "lesson_number": 97,
+    "title": "Lesson 97: 1",
+    "series": "20 - Ability & Time",
+    "publish_date": "2025-12-23",
+    "filename": "lesson_097_20_1.md",
+    "original_file": "curriculum_refactoring/20-1-1 - Unable Impossible Willing - aśakta aśakya chandata - ashakata ashakaya chhanadata.md",
+    "lesson_info": {
+      "lesson_number": "20",
+      "category": "Ability & Time",
+      "title": "1",
+      "filename": "20-1-1 - Unable Impossible Willing - aśakta aśakya chandata - ashakata ashakaya chhanadata.md"
+    }
+  },
+  {
+    "lesson_number": 98,
+    "title": "Lesson 98: 2",
+    "series": "20 - Ability & Time",
+    "publish_date": "2025-12-24",
+    "filename": "lesson_098_20_2.md",
+    "original_file": "curriculum_refactoring/20-1-2 - Exercise Unable - abhyaasaha aśakta - abhayaaasah ashakata.md",
+    "lesson_info": {
+      "lesson_number": "20",
+      "category": "Ability & Time",
+      "title": "2",
+      "filename": "20-1-2 - Exercise Unable - abhyaasaha aśakta - abhayaaasah ashakata.md"
+    }
+  },
+  {
+    "lesson_number": 99,
+    "title": "Lesson 99: 3",
+    "series": "20 - Ability & Time",
+    "publish_date": "2025-12-25",
+    "filename": "lesson_099_20_3.md",
+    "original_file": "curriculum_refactoring/20-1-3 - Todays Tomorrows Yesterdays - adyatana śvastana hyastana - adayatana shavasatana hayasatana.md",
+    "lesson_info": {
+      "lesson_number": "20",
+      "category": "Ability & Time",
+      "title": "3",
+      "filename": "20-1-3 - Todays Tomorrows Yesterdays - adyatana śvastana hyastana - adayatana shavasatana hayasatana.md"
+    }
+  },
+  {
+    "lesson_number": 100,
+    "title": "Lesson 100: 4",
+    "series": "20 - Ability & Time",
+    "publish_date": "2025-12-26",
+    "filename": "lesson_100_20_4.md",
+    "original_file": "curriculum_refactoring/20-1-4 - Exercise Todays - abhyaasaha adyatana - abhayaaasah adayatana.md",
+    "lesson_info": {
+      "lesson_number": "20",
+      "category": "Ability & Time",
+      "title": "4",
+      "filename": "20-1-4 - Exercise Todays - abhyaasaha adyatana - abhayaaasah adayatana.md"
+    }
+  },
+  {
+    "lesson_number": 101,
+    "title": "Lesson 101: Gone Coming",
+    "series": "21 - Movement",
+    "publish_date": "2025-12-27",
+    "filename": "lesson_101_21_Gone_Coming.md",
+    "original_file": "curriculum_refactoring/21-1- Gone Coming - gata aagaami - gata aagaaamai.md",
+    "lesson_info": {
+      "lesson_number": "21",
+      "category": "Movement",
+      "title": "Gone Coming",
+      "filename": "21-1- Gone Coming - gata aagaami - gata aagaaamai.md"
+    }
+  },
+  {
+    "lesson_number": 102,
+    "title": "Lesson 102: As much as so much",
+    "series": "22 - Quantity",
+    "publish_date": "2025-12-28",
+    "filename": "lesson_102_22_As_much_as_so_much.md",
+    "original_file": "curriculum_refactoring/22-1- As much as so much - yaavat taavat - yaaavata taaavata.md",
+    "lesson_info": {
+      "lesson_number": "22",
+      "category": "Quantity",
+      "title": "As much as so much",
+      "filename": "22-1- As much as so much - yaavat taavat - yaaavata taaavata.md"
+    }
+  },
+  {
+    "lesson_number": 103,
+    "title": "Lesson 103: As So",
+    "series": "23 - Comparison",
+    "publish_date": "2025-12-29",
+    "filename": "lesson_103_23_As_So.md",
+    "original_file": "curriculum_refactoring/23-1- As So - yathaa tathaa - yathaaa tathaaa.md",
+    "lesson_info": {
+      "lesson_number": "23",
+      "category": "Comparison",
+      "title": "As So",
+      "filename": "23-1- As So - yathaa tathaa - yathaaa tathaaa.md"
+    }
+  },
+  {
+    "lesson_number": 104,
+    "title": "Lesson 104: Past Tense Particle",
+    "series": "24 - Past Particles",
+    "publish_date": "2025-12-30",
+    "filename": "lesson_104_24_Past_Tense_Particle.md",
+    "original_file": "curriculum_refactoring/24-1- Past Tense Particle - sma - sama.md",
+    "lesson_info": {
+      "lesson_number": "24",
+      "category": "Past Particles",
+      "title": "Past Tense Particle",
+      "filename": "24-1- Past Tense Particle - sma - sama.md"
+    }
+  },
+  {
+    "lesson_number": 105,
+    "title": "Lesson 105: Having done",
+    "series": "25 - Perfect Tense",
+    "publish_date": "2025-12-31",
+    "filename": "lesson_105_25_Having_done.md",
+    "original_file": "curriculum_refactoring/25-1- Having done - tvaa - katavaaa.md",
+    "lesson_info": {
+      "lesson_number": "25",
+      "category": "Perfect Tense",
+      "title": "Having done",
+      "filename": "25-1- Having done - tvaa - katavaaa.md"
+    }
+  },
+  {
+    "lesson_number": 106,
+    "title": "Lesson 106: Special Forms",
+    "series": "25 - Perfect Tense",
+    "publish_date": "2026-01-01",
+    "filename": "lesson_106_25_Special_Forms.md",
+    "original_file": "curriculum_refactoring/25-2- Special Forms - viśeshaarūpaanai - vaishaesharauupaaanai.md",
+    "lesson_info": {
+      "lesson_number": "25",
+      "category": "Perfect Tense",
+      "title": "Special Forms",
+      "filename": "25-2- Special Forms - viśeshaarūpaanai - vaishaesharauupaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 107,
+    "title": "Lesson 107: Introduction to Kinship Terms",
+    "series": "26 - Kinship Terms",
+    "publish_date": "2026-01-02",
+    "filename": "lesson_107_26_Introduction_to_Kinship_Terms.md",
+    "original_file": "curriculum_refactoring/26-1- Introduction to Kinship Terms - bandhuvaacakaśabdaanaaṃ paricayaha - banadhauvaaachakashabadaaanaaam paraichayah.md",
+    "lesson_info": {
+      "lesson_number": "26",
+      "category": "Kinship Terms",
+      "title": "Introduction to Kinship Terms",
+      "filename": "26-1- Introduction to Kinship Terms - bandhuvaacakaśabdaanaaṃ paricayaha - banadhauvaaachakashabadaaanaaam paraichayah.md"
+    }
+  },
+  {
+    "lesson_number": 108,
+    "title": "Lesson 108: Exercise Kinship Terms",
+    "series": "26 - Kinship Terms",
+    "publish_date": "2026-01-03",
+    "filename": "lesson_108_26_Exercise_Kinship_Terms.md",
+    "original_file": "curriculum_refactoring/26-2- Exercise Kinship Terms - abhyaasaha bandhuvaacakaaha - abhayaaasah banadhauvaaachakaaah.md",
+    "lesson_info": {
+      "lesson_number": "26",
+      "category": "Kinship Terms",
+      "title": "Exercise Kinship Terms",
+      "filename": "26-2- Exercise Kinship Terms - abhyaasaha bandhuvaacakaaha - abhayaaasah banadhauvaaachakaaah.md"
+    }
+  },
+  {
+    "lesson_number": 109,
+    "title": "Lesson 109: Specific Kinship Terms",
+    "series": "26 - Kinship Terms",
+    "publish_date": "2026-01-04",
+    "filename": "lesson_109_26_Specific_Kinship_Terms.md",
+    "original_file": "curriculum_refactoring/26-3- Specific Kinship Terms - viśishataaaha bandhuvaacakaśabdaaha - vaishaishataaah banadhauvaaachakashabadaaah.md",
+    "lesson_info": {
+      "lesson_number": "26",
+      "category": "Kinship Terms",
+      "title": "Specific Kinship Terms",
+      "filename": "26-3- Specific Kinship Terms - viśishataaaha bandhuvaacakaśabdaaha - vaishaishataaah banadhauvaaachakashabadaaah.md"
+    }
+  },
+  {
+    "lesson_number": 110,
+    "title": "Lesson 110: 1",
+    "series": "27 - Taste & Senses",
+    "publish_date": "2026-01-05",
+    "filename": "lesson_110_27_1.md",
+    "original_file": "curriculum_refactoring/27-1-1 - Words Denoting Taste - rucivaacakaaha śabdaaha - rauchaivaaachakaaah shabadaaah.md",
+    "lesson_info": {
+      "lesson_number": "27",
+      "category": "Taste & Senses",
+      "title": "1",
+      "filename": "27-1-1 - Words Denoting Taste - rucivaacakaaha śabdaaha - rauchaivaaachakaaah shabadaaah.md"
+    }
+  },
+  {
+    "lesson_number": 111,
+    "title": "Lesson 111: 2",
+    "series": "27 - Taste & Senses",
+    "publish_date": "2026-01-06",
+    "filename": "lesson_111_27_2.md",
+    "original_file": "curriculum_refactoring/27-1-2 - Exercise Words Denoting Taste - abhyaasaha rucivaacakaaha - abhayaaasah rauchaivaaachakaaah.md",
+    "lesson_info": {
+      "lesson_number": "27",
+      "category": "Taste & Senses",
+      "title": "2",
+      "filename": "27-1-2 - Exercise Words Denoting Taste - abhyaasaha rucivaacakaaha - abhayaaasah rauchaivaaachakaaah.md"
+    }
+  },
+  {
+    "lesson_number": 112,
+    "title": "Lesson 112: Conversation Words Denoting Taste",
+    "series": "27 - Taste & Senses",
+    "publish_date": "2026-01-07",
+    "filename": "lesson_112_27_Conversation_Words_Denoting_Taste.md",
+    "original_file": "curriculum_refactoring/27-2- Conversation Words Denoting Taste - sambhaashaanaam rucivaacakaaha - samabhaaashanama rauchaivaaachakaaah.md",
+    "lesson_info": {
+      "lesson_number": "27",
+      "category": "Taste & Senses",
+      "title": "Conversation Words Denoting Taste",
+      "filename": "27-2- Conversation Words Denoting Taste - sambhaashaanaam rucivaacakaaha - samabhaaashanama rauchaivaaachakaaah.md"
+    }
+  },
+  {
+    "lesson_number": 113,
+    "title": "Lesson 113: Exercise Words Denoting Taste",
+    "series": "27 - Taste & Senses",
+    "publish_date": "2026-01-08",
+    "filename": "lesson_113_27_Exercise_Words_Denoting_Taste.md",
+    "original_file": "curriculum_refactoring/27-3- Exercise Words Denoting Taste - abhyaasaha rucivaacakaaha - abhayaaasah rauchaivaaachakaaah.md",
+    "lesson_info": {
+      "lesson_number": "27",
+      "category": "Taste & Senses",
+      "title": "Exercise Words Denoting Taste",
+      "filename": "27-3- Exercise Words Denoting Taste - abhyaasaha rucivaacakaaha - abhayaaasah rauchaivaaachakaaah.md"
+    }
+  },
+  {
+    "lesson_number": 114,
+    "title": "Lesson 114: What kind of Like this",
+    "series": "28 - Description",
+    "publish_date": "2026-01-09",
+    "filename": "lesson_114_28_What_kind_of_Like_this.md",
+    "original_file": "curriculum_refactoring/28-1- What kind of Like this - kīdriśaha īdriśaha - kaiidarishah iidarishah.md",
+    "lesson_info": {
+      "lesson_number": "28",
+      "category": "Description",
+      "title": "What kind of Like this",
+      "filename": "28-1- What kind of Like this - kīdriśaha īdriśaha - kaiidarishah iidarishah.md"
+    }
+  },
+  {
+    "lesson_number": 115,
+    "title": "Lesson 115: Exercise What kind of Like this",
+    "series": "28 - Description",
+    "publish_date": "2026-01-10",
+    "filename": "lesson_115_28_Exercise_What_kind_of_Like_this.md",
+    "original_file": "curriculum_refactoring/28-2- Exercise What kind of Like this - abhyaasaha kīdriśaha īdriśaha - abhayaaasah kaiidarishah iidarishah.md",
+    "lesson_info": {
+      "lesson_number": "28",
+      "category": "Description",
+      "title": "Exercise What kind of Like this",
+      "filename": "28-2- Exercise What kind of Like this - abhyaasaha kīdriśaha īdriśaha - abhayaaasah kaiidarishah iidarishah.md"
+    }
+  },
+  {
+    "lesson_number": 116,
+    "title": "Lesson 116: Words with Opposite Meanings",
+    "series": "29 - Opposites",
+    "publish_date": "2026-01-11",
+    "filename": "lesson_116_29_Words_with_Opposite_Meanings.md",
+    "original_file": "curriculum_refactoring/29-1- Words with Opposite Meanings - viruddhaarthakaaha śabdaaha - vairaudadhaaarathakaaah shabadaaah.md",
+    "lesson_info": {
+      "lesson_number": "29",
+      "category": "Opposites",
+      "title": "Words with Opposite Meanings",
+      "filename": "29-1- Words with Opposite Meanings - viruddhaarthakaaha śabdaaha - vairaudadhaaarathakaaah shabadaaah.md"
+    }
+  },
+  {
+    "lesson_number": 117,
+    "title": "Lesson 117: Compared to",
+    "series": "30 - Comparison",
+    "publish_date": "2026-01-12",
+    "filename": "lesson_117_30_Compared_to.md",
+    "original_file": "curriculum_refactoring/30-1- Compared to - apekshaayaa - apaekashayaaa.md",
+    "lesson_info": {
+      "lesson_number": "30",
+      "category": "Comparison",
+      "title": "Compared to",
+      "filename": "30-1- Compared to - apekshaayaa - apaekashayaaa.md"
+    }
+  },
+  {
+    "lesson_number": 118,
+    "title": "Lesson 118: 1",
+    "series": "30 - Comparison",
+    "publish_date": "2026-01-13",
+    "filename": "lesson_118_30_1.md",
+    "original_file": "curriculum_refactoring/30-2-1 - Where There - yatra tatra - yatara tatara.md",
+    "lesson_info": {
+      "lesson_number": "30",
+      "category": "Comparison",
+      "title": "1",
+      "filename": "30-2-1 - Where There - yatra tatra - yatara tatara.md"
+    }
+  },
+  {
+    "lesson_number": 119,
+    "title": "Lesson 119: 2",
+    "series": "30 - Comparison",
+    "publish_date": "2026-01-14",
+    "filename": "lesson_119_30_2.md",
+    "original_file": "curriculum_refactoring/30-2-2 - Where There Exercise - yatra tatra abhyaasaha - yatara tatara abhayaaasah.md",
+    "lesson_info": {
+      "lesson_number": "30",
+      "category": "Comparison",
+      "title": "2",
+      "filename": "30-2-2 - Where There Exercise - yatra tatra abhyaasaha - yatara tatara abhayaaasah.md"
+    }
+  },
+  {
+    "lesson_number": 120,
+    "title": "Lesson 120: In order to",
+    "series": "31 - Purpose",
+    "publish_date": "2026-01-15",
+    "filename": "lesson_120_31_In_order_to.md",
+    "original_file": "curriculum_refactoring/31-1- In order to - tumun - taumauna.md",
+    "lesson_info": {
+      "lesson_number": "31",
+      "category": "Purpose",
+      "title": "In order to",
+      "filename": "31-1- In order to - tumun - taumauna.md"
+    }
+  },
+  {
+    "lesson_number": 121,
+    "title": "Lesson 121: Exercise in Changing From having done to in order to",
+    "series": "31 - Purpose",
+    "publish_date": "2026-01-16",
+    "filename": "lesson_121_31_Exercise_in_Changing_From_having_done_to_in_order_to.md",
+    "original_file": "curriculum_refactoring/31-2- Exercise in Changing From having done to in order to - parivartanaabhyaasaha tvaataha tumun - paraivaratanaaabhayaaasah katatavaaatah taumauna.md",
+    "lesson_info": {
+      "lesson_number": "31",
+      "category": "Purpose",
+      "title": "Exercise in Changing From having done to in order to",
+      "filename": "31-2- Exercise in Changing From having done to in order to - parivartanaabhyaasaha tvaataha tumun - paraivaratanaaabhayaaasah katatavaaatah taumauna.md"
+    }
+  },
+  {
+    "lesson_number": 122,
+    "title": "Lesson 122: But Certainly Mostly Indeed",
+    "series": "32 - Conjunctions",
+    "publish_date": "2026-01-17",
+    "filename": "lesson_122_32_But_Certainly_Mostly_Indeed.md",
+    "original_file": "curriculum_refactoring/32-1- But Certainly Mostly Indeed - kintu niścayena praayaśaha kila - kainatau naishachayaena paraaayashah kaila.md",
+    "lesson_info": {
+      "lesson_number": "32",
+      "category": "Conjunctions",
+      "title": "But Certainly Mostly Indeed",
+      "filename": "32-1- But Certainly Mostly Indeed - kintu niścayena praayaśaha kila - kainatau naishachayaena paraaayashah kaila.md"
+    }
+  },
+  {
+    "lesson_number": 123,
+    "title": "Lesson 123: If",
+    "series": "33 - Conditional",
+    "publish_date": "2026-01-18",
+    "filename": "lesson_123_33_If.md",
+    "original_file": "curriculum_refactoring/33-1- If - cet .md",
+    "lesson_info": {
+      "lesson_number": "33",
+      "category": "Conditional",
+      "title": "If",
+      "filename": "33-1- If - cet .md"
+    }
+  },
+  {
+    "lesson_number": 124,
+    "title": "Lesson 124: If not",
+    "series": "33 - Conditional",
+    "publish_date": "2026-01-19",
+    "filename": "lesson_124_33_If_not.md",
+    "original_file": "curriculum_refactoring/33-2- If not - no chet.md",
+    "lesson_info": {
+      "lesson_number": "33",
+      "category": "Conditional",
+      "title": "If not",
+      "filename": "33-2- If not - no chet.md"
+    }
+  },
+  {
+    "lesson_number": 125,
+    "title": "Lesson 125: Because",
+    "series": "33 - Conditional",
+    "publish_date": "2026-01-20",
+    "filename": "lesson_125_33_Because.md",
+    "original_file": "curriculum_refactoring/33-3- Because - yataha - yatah.md",
+    "lesson_info": {
+      "lesson_number": "33",
+      "category": "Conditional",
+      "title": "Because",
+      "filename": "33-3- Because - yataha - yatah.md"
+    }
+  },
+  {
+    "lesson_number": 126,
+    "title": "Lesson 126: Names of Body Parts",
+    "series": "34 - Body Parts",
+    "publish_date": "2026-01-21",
+    "filename": "lesson_126_34_Names_of_Body_Parts.md",
+    "original_file": "curriculum_refactoring/34-1- Names of Body Parts - avayavaanaaṃ naamaani - avayavaaanaaam naaamaaanai.md",
+    "lesson_info": {
+      "lesson_number": "34",
+      "category": "Body Parts",
+      "title": "Names of Body Parts",
+      "filename": "34-1- Names of Body Parts - avayavaanaaṃ naamaani - avayavaaanaaam naaamaaanai.md"
+    }
+  },
+  {
+    "lesson_number": 127,
+    "title": "Lesson 127: Exercise Body Parts",
+    "series": "34 - Body Parts",
+    "publish_date": "2026-01-22",
+    "filename": "lesson_127_34_Exercise_Body_Parts.md",
+    "original_file": "curriculum_refactoring/34-2- Exercise Body Parts - abhyaasaha avayavaaha - abhayaaasah avayavaaah.md",
+    "lesson_info": {
+      "lesson_number": "34",
+      "category": "Body Parts",
+      "title": "Exercise Body Parts",
+      "filename": "34-2- Exercise Body Parts - abhyaasaha avayavaaha - abhayaaasah avayavaaah.md"
+    }
+  },
+  {
+    "lesson_number": 128,
+    "title": "Lesson 128: Who He Who She",
+    "series": "35 - Pronouns",
+    "publish_date": "2026-01-23",
+    "filename": "lesson_128_35_Who_He_Who_She.md",
+    "original_file": "curriculum_refactoring/35-1- Who He Who She - yaha saha yaa saa - yah sah yaaa saaa.md",
+    "lesson_info": {
+      "lesson_number": "35",
+      "category": "Pronouns",
+      "title": "Who He Who She",
+      "filename": "35-1- Who He Who She - yaha saha yaa saa - yah sah yaaa saaa.md"
+    }
+  },
+  {
+    "lesson_number": 129,
+    "title": "Lesson 129: Which That",
+    "series": "35 - Pronouns",
+    "publish_date": "2026-01-24",
+    "filename": "lesson_129_35_Which_That.md",
+    "original_file": "curriculum_refactoring/35-2- Which That - yat tat - yata tata.md",
+    "lesson_info": {
+      "lesson_number": "35",
+      "category": "Pronouns",
+      "title": "Which That",
+      "filename": "35-2- Which That - yat tat - yata tata.md"
+    }
+  },
+  {
+    "lesson_number": 130,
+    "title": "Lesson 130: Although Yet",
+    "series": "36 - Conjunctions",
+    "publish_date": "2026-01-25",
+    "filename": "lesson_130_36_Although_Yet.md",
+    "original_file": "curriculum_refactoring/36-1- Although Yet - yadyapi tathaapi - yadayapai tathaaapai.md",
+    "lesson_info": {
+      "lesson_number": "36",
+      "category": "Conjunctions",
+      "title": "Although Yet",
+      "filename": "36-1- Although Yet - yadyapi tathaapi - yadayapai tathaaapai.md"
+    }
+  }
+]

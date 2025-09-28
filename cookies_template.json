@@ -1,0 +1,20 @@
+{
+  "instructions": "To use authenticated features, export your browser cookies from a logged-in Substack session",
+  "format": [
+    {
+      "name": "substack.sid",
+      "value": "your_session_id_here",
+      "domain": ".substack.com",
+      "path": "/",
+      "secure": true
+    },
+    {
+      "name": "substack.lli",
+      "value": "your_lli_value_here",
+      "domain": ".substack.com",
+      "path": "/",
+      "secure": true
+    }
+  ],
+  "note": "Replace the placeholder values with your actual cookie values from a logged-in Substack session"
+}
