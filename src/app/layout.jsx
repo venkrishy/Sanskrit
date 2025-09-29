@@ -219,48 +219,74 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="grid h-screen grid-cols-[300px_1fr_300px]">
-          {/* Left Sidebar - Table of Contents */}
-          <ScrollArea className="h-screen border-r">
-            <div className="p-4">
-              <h2 className="mb-4 text-lg font-semibold">Table of Contents</h2>
-              {tableOfContents.map((chapter) => (
-                <div key={chapter.number} className="mb-2">
-                  <div className="flex w-full items-center justify-between rounded-lg p-2 text-left">
-                    <span>Chapter {chapter.number}: {chapter.title}</span>
-                  </div>
-                  <div className="ml-4 mt-2 space-y-1">
-                    {chapter.sections.map((section) => (
-                      <a
-                        key={section.url}
-                        href={section.url}
-                        className="flex w-full items-center justify-between rounded-lg p-2 text-left text-sm hover:bg-accent"
-                      >
-                        <span>{section.title}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </ScrollArea>
-
-          {/* Main Content */}
-          <main className="h-screen overflow-y-auto">
-            <div className="container mx-auto p-8">
-              {children}
-            </div>
-          </main>
-
-          {/* Right Sidebar - Practice Area */}
-          <ScrollArea className="h-screen border-l">
-            <div className="p-4">
-              <h2 className="mb-4 text-lg font-semibold">Practice</h2>
-              <div className="text-muted-foreground">
-                Practice content coming soon...
+        <div className="min-h-screen bg-gray-50">
+          {/* Mobile Navigation */}
+          <nav className="lg:hidden bg-white border-b border-gray-200 sticky top-0 z-50">
+            <div className="px-4 py-3">
+              <div className="flex items-center justify-between">
+                <h1 className="text-lg font-semibold text-gray-900">Sanskrit Learning</h1>
+                <button className="p-2 rounded-md text-gray-600 hover:bg-gray-100">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
               </div>
             </div>
-          </ScrollArea>
+          </nav>
+
+          {/* Desktop Layout */}
+          <div className="hidden lg:grid lg:grid-cols-[300px_1fr_300px] lg:h-screen">
+            {/* Left Sidebar - Table of Contents */}
+            <ScrollArea className="h-screen border-r bg-white">
+              <div className="p-4">
+                <h2 className="mb-4 text-lg font-semibold">Table of Contents</h2>
+                {tableOfContents.map((chapter) => (
+                  <div key={chapter.number} className="mb-2">
+                    <div className="flex w-full items-center justify-between rounded-lg p-2 text-left">
+                      <span>Chapter {chapter.number}: {chapter.title}</span>
+                    </div>
+                    <div className="ml-4 mt-2 space-y-1">
+                      {chapter.sections.map((section) => (
+                        <a
+                          key={section.url}
+                          href={section.url}
+                          className="flex w-full items-center justify-between rounded-lg p-2 text-left text-sm hover:bg-accent"
+                        >
+                          <span>{section.title}</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </ScrollArea>
+
+            {/* Main Content */}
+            <main className="h-screen overflow-y-auto">
+              <div className="container mx-auto p-8">
+                {children}
+              </div>
+            </main>
+
+            {/* Right Sidebar - Practice Area */}
+            <ScrollArea className="h-screen border-l bg-white">
+              <div className="p-4">
+                <h2 className="mb-4 text-lg font-semibold">Practice</h2>
+                <div className="text-muted-foreground">
+                  Practice content coming soon...
+                </div>
+              </div>
+            </ScrollArea>
+          </div>
+
+          {/* Mobile Layout */}
+          <div className="lg:hidden">
+            <main className="min-h-screen">
+              <div className="container mx-auto px-4 py-6">
+                {children}
+              </div>
+            </main>
+          </div>
         </div>
       </body>
     </html>
