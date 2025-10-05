@@ -559,6 +559,17 @@ const tableOfContents = [
 ]
 
 export default function RootLayout({ children }) {
+  const isHome = typeof window !== 'undefined' && window.location.pathname === '/'
+  if (isHome) {
+    return (
+      <div className="min-h-screen bg-gray-50">
+        {/* Minimal layout for Home (no sidebars) */}
+        <main>
+          {children}
+        </main>
+      </div>
+    )
+  }
   return (
     <div className="min-h-screen bg-gray-50">
           {/* Mobile Navigation */}
