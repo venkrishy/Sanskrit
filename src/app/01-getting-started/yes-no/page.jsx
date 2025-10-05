@@ -15,7 +15,7 @@ export default function YesNoPage() {
       
       {/* Title Card */}
       <TitleCard 
-        title="1.6 - Yes/No: Simple Affirmation and Negation"
+        title="1.5 - Yes/No: Simple Affirmation and Negation"
         subtitle="Learning to say yes and no in Sanskrit"
         level="Beginner"
         progress={60}

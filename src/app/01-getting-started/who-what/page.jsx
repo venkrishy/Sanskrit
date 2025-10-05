@@ -15,7 +15,7 @@ export default function WhoWhatPage() {
       
       {/* Title Card */}
       <TitleCard 
-        title="1.5 - Asking: Who? and What? (kaḥ and kim)"
+        title="1.4 - Asking: Who? and What? (kaḥ and kim)"
         subtitle="Learning interrogative pronouns"
         level="Beginner"
         progress={50}

@@ -15,7 +15,7 @@ export default function MasculineNamePage() {
       
       {/* Title Card */}
       <TitleCard 
-        title="1.3 - My Name Is... (The Masculine Name)"
+        title="1.2 - My Name Is... (The Masculine Name)"
         subtitle="Learning masculine gender names and introductions"
         level="Beginner"
         progress={30}

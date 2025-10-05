@@ -52,7 +52,7 @@ const NavigationCard = ({
               </Link>
             )}
             
-            {nextLesson && (
+            {nextLesson ? (
               <Link to={nextLesson.url}>
                 <Button 
                   className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white"
@@ -61,6 +61,14 @@ const NavigationCard = ({
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
+            ) : (
+              <Button 
+                disabled
+                className="flex items-center space-x-2 bg-gray-400 text-gray-600 cursor-not-allowed"
+              >
+                <span>Next</span>
+                <ArrowRight className="w-4 h-4" />
+              </Button>
             )}
           </div>
         </div>

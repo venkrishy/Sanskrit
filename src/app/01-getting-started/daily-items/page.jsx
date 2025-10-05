@@ -15,7 +15,7 @@ export default function DailyItemsPage() {
       
       {/* Title Card */}
       <TitleCard 
-        title="1.7 - Vocabulary: Top 10 Daily Use Items"
+        title="1.6 - Vocabulary: Top 10 Daily Use Items"
         subtitle="Essential vocabulary for daily conversations"
         level="Beginner"
         progress={70}
