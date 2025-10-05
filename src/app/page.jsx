@@ -200,6 +200,7 @@ export default function HomePage() {
           </a>
         </div>
       </div>
+      <LoginModal open={loginOpen} onClose={() => setLoginOpen(false)} />
     </div>
   )
 }
