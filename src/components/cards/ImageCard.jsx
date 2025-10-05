@@ -34,16 +34,17 @@ const ImageCard = ({
         <div className="flex flex-col lg:flex-row">
           {/* Left side - Image */}
           <div className="w-full lg:w-1/2 p-4">
-            <div className="relative">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+              <h3 className="text-lg font-semibold text-green-800 mb-3 flex items-center">
+                <span className="mr-2">🖼️</span>
+                Image
+              </h3>
               <img
                 src={imageSrc}
                 alt={imageAlt}
-                className="w-full h-auto rounded-lg shadow-md object-cover"
-                style={{ maxHeight: '300px' }}
+                className="w-full h-auto rounded-lg shadow-md object-contain"
+                style={{ maxHeight: '400px' }}
               />
-              <div className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 rounded text-sm">
-                📸 Image
-              </div>
             </div>
           </div>
 

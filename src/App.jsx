@@ -18,6 +18,15 @@ import ComplexSentencesPage from './app/12-complex-sentences/page.jsx'
 import AdvancedVerbsPage from './app/13-advanced-verbs/page.jsx'
 import ComplexDialoguePage from './app/14-complex-dialogue/page.jsx'
 
+// Import 01-getting-started lesson pages
+import GreetingsIdentityPage from './app/01-getting-started/greetings-identity/page.jsx'
+import NeuterNamePage from './app/01-getting-started/neuter-name/page.jsx'
+import MasculineNamePage from './app/01-getting-started/masculine-name/page.jsx'
+import FeminineNamePage from './app/01-getting-started/feminine-name/page.jsx'
+import WhoWhatPage from './app/01-getting-started/who-what/page.jsx'
+import YesNoPage from './app/01-getting-started/yes-no/page.jsx'
+import DailyItemsPage from './app/01-getting-started/daily-items/page.jsx'
+
 // Import legacy category pages (keeping for backward compatibility)
 import FoundationalPage from './app/01-foundational/page.jsx'
 import PronounsPage from './app/02-pronouns/page.jsx'
@@ -100,6 +109,15 @@ function App() {
         <Route path="/12-complex-sentences" element={<RootLayout><ComplexSentencesPage /></RootLayout>} />
         <Route path="/13-advanced-verbs" element={<RootLayout><AdvancedVerbsPage /></RootLayout>} />
         <Route path="/14-complex-dialogue" element={<RootLayout><ComplexDialoguePage /></RootLayout>} />
+        
+        {/* 01-getting-started lesson routes */}
+        <Route path="/01-getting-started/greetings-identity" element={<RootLayout><GreetingsIdentityPage /></RootLayout>} />
+        <Route path="/01-getting-started/neuter-name" element={<RootLayout><NeuterNamePage /></RootLayout>} />
+        <Route path="/01-getting-started/masculine-name" element={<RootLayout><MasculineNamePage /></RootLayout>} />
+        <Route path="/01-getting-started/feminine-name" element={<RootLayout><FeminineNamePage /></RootLayout>} />
+        <Route path="/01-getting-started/who-what" element={<RootLayout><WhoWhatPage /></RootLayout>} />
+        <Route path="/01-getting-started/yes-no" element={<RootLayout><YesNoPage /></RootLayout>} />
+        <Route path="/01-getting-started/daily-items" element={<RootLayout><DailyItemsPage /></RootLayout>} />
         
         {/* Legacy category pages (keeping for backward compatibility) */}
         <Route path="/01-foundational" element={<RootLayout><FoundationalPage /></RootLayout>} />

@@ -15,31 +15,26 @@ const tableOfContents = [
       },
       { 
         number: 2, 
-        title: "Hello! My Name Is... (The Neuter Name)",
-        url: "/01-getting-started/neuter-name"
-      },
-      { 
-        number: 3, 
         title: "My Name Is... (The Masculine Name)",
         url: "/01-getting-started/masculine-name"
       },
       { 
-        number: 4, 
+        number: 3, 
         title: "My Name Is... (The Feminine Name)",
         url: "/01-getting-started/feminine-name"
       },
       { 
-        number: 5, 
+        number: 4, 
         title: "Asking: Who? and What? (kaḥ and kim)",
         url: "/01-getting-started/who-what"
       },
       { 
-        number: 6, 
+        number: 5, 
         title: "Yes/No: Simple Affirmation and Negation",
         url: "/01-getting-started/yes-no"
       },
       { 
-        number: 7, 
+        number: 6, 
         title: "Vocabulary: Top 10 Daily Use Items",
         url: "/01-getting-started/daily-items"
       }
@@ -565,9 +560,7 @@ const tableOfContents = [
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
           {/* Mobile Navigation */}
           <nav className="lg:hidden bg-white border-b border-gray-200 sticky top-0 z-50">
             <div className="px-4 py-3">
@@ -636,7 +629,5 @@ export default function RootLayout({ children }) {
             </main>
           </div>
         </div>
-      </body>
-    </html>
   )
 }
