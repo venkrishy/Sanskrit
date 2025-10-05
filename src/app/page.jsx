@@ -6,7 +6,7 @@ export default function HomePage() {
   const [loginOpen, setLoginOpen] = useState(false)
   return (
     <div className="">
-      <Navbar onLoginClick={() => setLoginOpen(true)} />
+      <Navbar onLoginClick={() => setLoginOpen(true)} showDashboardLink={false} />
       <div className="mx-auto max-w-6xl px-4 py-16">
         {/* Hero */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
