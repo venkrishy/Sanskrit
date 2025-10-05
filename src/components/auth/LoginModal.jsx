@@ -1,5 +1,7 @@
+import { useAuth } from '@/context/AuthContext'
 export default function LoginModal({ open, onClose }) {
   if (!open) return null;
+  const { signInWithGoogle } = (() => { try { return useAuth() } catch { return {} } })()
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
       <div className="absolute inset-0 bg-black/40" onClick={onClose} />
@@ -9,6 +11,7 @@ export default function LoginModal({ open, onClose }) {
         </div>
         <div className="space-y-3">
           <button
+            onClick={() => signInWithGoogle?.()}
             className="w-full inline-flex items-center justify-center gap-2 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="h-4 w-4" aria-hidden>
