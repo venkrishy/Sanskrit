@@ -85,3 +85,4 @@ export const getLessonNavigation = (currentPath) => {
   return lessons[currentPath] || null;
 };
 
+
