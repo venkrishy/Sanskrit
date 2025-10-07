@@ -9,7 +9,8 @@ export default function PasskeyPrompt({ onDismiss }) {
     setLoading(true)
     try {
       // Get user email from the current session
-      const userEmail = 'user@example.com' // In real implementation, get from auth context
+      const { user } = useAuth()
+      const userEmail = user?.email || 'user@example.com'
       await registerPasskey(userEmail)
       onDismiss()
     } catch (error) {

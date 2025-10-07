@@ -33,28 +33,15 @@ export function AuthProvider({ children }) {
     if (!email) throw new Error('Email required for passkey authentication')
     
     try {
-      // Check if user exists and has passkeys registered
-      const { data: { user: existingUser } } = await supabase.auth.getUser()
-      
-      if (existingUser && existingUser.email === email) {
-        // User exists, try passkey authentication
-        const credential = await navigator.credentials.get({
-          publicKey: {
-            challenge: new Uint8Array(32),
-            allowCredentials: [],
-            userVerification: 'required',
-            timeout: 60000,
-          }
-        })
-        
-        if (credential) {
-          // For now, create a session with the existing user
-          // In a full implementation, you'd verify the passkey signature
-          return { user: existingUser }
+      const { data, error } = await supabase.auth.signInWithWebAuthn({
+        email,
+        options: {
+          redirectTo: window.location.origin + '/dashboard'
         }
-      }
+      })
       
-      throw new Error('No passkey found for this email')
+      if (error) throw error
+      return data
     } catch (error) {
       console.error('Passkey authentication failed:', error)
       throw error
@@ -65,35 +52,15 @@ export function AuthProvider({ children }) {
     if (!email) throw new Error('Email required for passkey registration')
     
     try {
-      const credential = await navigator.credentials.create({
-        publicKey: {
-          challenge: new Uint8Array(32),
-          rp: {
-            name: "Samskritavak",
-            id: window.location.hostname,
-          },
-          user: {
-            id: new TextEncoder().encode(email),
-            name: email,
-            displayName: email,
-          },
-          pubKeyCredParams: [
-            { type: "public-key", alg: -7 }, // ES256
-            { type: "public-key", alg: -257 }, // RS256
-          ],
-          authenticatorSelection: {
-            authenticatorAttachment: "platform",
-            userVerification: "required",
-          },
-          timeout: 60000,
+      const { data, error } = await supabase.auth.createPasskey({
+        email,
+        options: {
+          redirectTo: window.location.origin + '/dashboard'
         }
       })
       
-      if (credential) {
-        // In a full implementation, you'd store the passkey credential
-        // For now, we'll just return success
-        return { success: true, credential }
-      }
+      if (error) throw error
+      return data
     } catch (error) {
       console.error('Passkey registration failed:', error)
       throw error
