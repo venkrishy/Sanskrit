@@ -1,5 +1,9 @@
+import { useState } from 'react'
 import { useAuth } from '@/context/AuthContext'
+import PasskeyModal from './PasskeyModal'
+
 export default function LoginModal({ open, onClose }) {
+  const [showPasskeyModal, setShowPasskeyModal] = useState(false)
   if (!open) return null;
   const { signInWithGoogle } = (() => { try { return useAuth() } catch { return {} } })()
   return (
@@ -23,14 +27,24 @@ export default function LoginModal({ open, onClose }) {
             Continue with Google
           </button>
           <div className="text-center text-xs text-gray-500">or</div>
-          <div className="text-xs text-gray-600 text-center">
-            Passkeys supported via system autofill when you focus the email field.
-          </div>
+          <button
+            onClick={() => setShowPasskeyModal(true)}
+            className="w-full inline-flex items-center justify-center gap-2 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-50"
+          >
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+            </svg>
+            Use Passkey
+          </button>
         </div>
         <div className="mt-4 flex justify-center">
           <button onClick={onClose} className="text-xs text-gray-500 hover:text-gray-700">Close</button>
         </div>
       </div>
+      <PasskeyModal 
+        open={showPasskeyModal} 
+        onClose={() => setShowPasskeyModal(false)} 
+      />
     </div>
   )
 }
