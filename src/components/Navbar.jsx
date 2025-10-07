@@ -2,13 +2,15 @@ import { useState } from 'react'
 import { useAuth } from '@/context/AuthContext'
 
 export default function Navbar({ onLoginClick, showDashboardLink = true }) {
-  let user, signOut
+  let user, signOut, loading
   try {
     const ctx = useAuth()
     user = ctx.user
     signOut = ctx.signOut
+    loading = ctx.loading
   } catch {
     user = null
+    loading = false
   }
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -19,7 +21,12 @@ export default function Navbar({ onLoginClick, showDashboardLink = true }) {
           {showDashboardLink && !user && (
             <a href="/dashboard" className="hidden sm:inline-flex px-3 py-2 text-sm text-gray-700 hover:text-gray-900">Dashboard</a>
           )}
-          {!user ? (
+          {loading ? (
+            <div className="inline-flex items-center px-4 py-2 text-sm text-gray-500">
+              <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-gray-900 mr-2"></div>
+              Loading...
+            </div>
+          ) : !user ? (
             <button
               onClick={onLoginClick}
               className="inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-black"

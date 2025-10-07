@@ -1,7 +1,14 @@
 ## Auth roadmap (approved)
 
 - Google OAuth via Supabase (implemented on `feat/supabase-authentication`).
+- Persistent authentication - users stay logged in until explicit logout (implemented on `feat/persistent-authentication`).
 - Avatar menu in navbar with Account preferences, Theme, Logout (Logout implemented; Account/Theme TODO).
+
+### Features
+- **Persistent Sessions**: Users remain logged in across browser sessions, page refreshes, and device restarts
+- **Auto Token Refresh**: Sessions automatically refresh to maintain authentication
+- **Session Storage**: Authentication state stored in localStorage for persistence
+- **Loading States**: Proper loading indicators during session restoration
 
 ### TODOs
 - Add production domain(s) and update Supabase Redirect URLs.

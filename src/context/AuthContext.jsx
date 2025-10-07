@@ -9,17 +9,43 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     let mounted = true
-    supabase.auth.getSession().then(({ data }) => {
+    
+    // Get initial session (this will restore from localStorage if available)
+    supabase.auth.getSession().then(({ data: { session } }) => {
       if (!mounted) return
-      setSession(data.session ?? null)
+      setSession(session)
       setLoading(false)
     })
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, newSession) => {
-      setSession(newSession)
-    })
+
+    // Listen for auth state changes (login, logout, token refresh)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      async (event, session) => {
+        if (!mounted) return
+        
+        console.log('Auth state changed:', event, session?.user?.email)
+        setSession(session)
+        setLoading(false)
+        
+        // Handle successful login
+        if (event === 'SIGNED_IN' && session) {
+          console.log('User signed in:', session.user.email)
+        }
+        
+        // Handle logout
+        if (event === 'SIGNED_OUT') {
+          console.log('User signed out')
+        }
+        
+        // Handle token refresh
+        if (event === 'TOKEN_REFRESHED') {
+          console.log('Token refreshed for:', session?.user?.email)
+        }
+      }
+    )
+
     return () => {
       mounted = false
-      sub.subscription?.unsubscribe()
+      subscription?.unsubscribe()
     }
   }, [])
 
