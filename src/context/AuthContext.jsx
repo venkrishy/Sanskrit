@@ -42,8 +42,31 @@ export function AuthProvider({ children }) {
       })
       
       if (credential) {
-        // For now, redirect to dashboard since we have a valid passkey
-        // In a full implementation, you'd verify the credential with your backend
+        // Create a temporary session for demo purposes
+        // In a real implementation, you'd verify the credential with your backend
+        // and create a proper Supabase session
+        
+        // For now, let's create a mock user session to demonstrate the UI
+        const mockUser = {
+          id: 'passkey-user-' + Date.now(),
+          email: 'user@passkey.local',
+          user_metadata: {
+            avatar_url: null,
+            full_name: 'Passkey User'
+          }
+        }
+        
+        // Create a mock session
+        const mockSession = {
+          user: mockUser,
+          access_token: 'mock-token',
+          refresh_token: 'mock-refresh-token'
+        }
+        
+        // Set the session in the context
+        setSession(mockSession)
+        
+        // Redirect to dashboard
         window.location.href = '/dashboard'
         return { success: true }
       }
@@ -94,6 +117,9 @@ export function AuthProvider({ children }) {
   }
 
   const signOut = async () => {
+    // Clear the session (works for both Supabase and mock sessions)
+    setSession(null)
+    // Also sign out from Supabase if there's a real session
     await supabase.auth.signOut()
     window.location.href = '/'
   }
