@@ -1,24 +1,6 @@
-import { useState, useEffect } from 'react'
 import Navbar from '@/components/Navbar'
-import PasskeyPrompt from '@/components/auth/PasskeyPrompt'
 
 export default function DashboardPage() {
-  const [showPasskeyPrompt, setShowPasskeyPrompt] = useState(false)
-
-  useEffect(() => {
-    // Show passkey prompt for new users (first time login)
-    // In a real app, you'd check if user has registered passkeys
-    const hasSeenPrompt = localStorage.getItem('passkey-prompt-dismissed')
-    if (!hasSeenPrompt) {
-      setShowPasskeyPrompt(true)
-    }
-  }, [])
-
-  const handleDismissPrompt = () => {
-    setShowPasskeyPrompt(false)
-    localStorage.setItem('passkey-prompt-dismissed', 'true')
-  }
-
   return (
     <div className="">
       <Navbar onLoginClick={() => {}} />
@@ -31,7 +13,7 @@ export default function DashboardPage() {
           </div>
           <div className="rounded-lg border bg-white p-4">
             <h2 className="font-medium mb-2">Account</h2>
-            <p className="text-sm text-gray-600">Profile info and settings (placeholder).</p>
+            <p className="text-sm text-gray-600">Manage your profile and settings (placeholder).</p>
           </div>
           <div className="rounded-lg border bg-white p-4">
             <h2 className="font-medium mb-2">Recent Activity</h2>
@@ -39,11 +21,6 @@ export default function DashboardPage() {
           </div>
         </div>
       </div>
-      {showPasskeyPrompt && (
-        <PasskeyPrompt onDismiss={handleDismissPrompt} />
-      )}
     </div>
   )
 }
-
-

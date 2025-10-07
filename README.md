@@ -2,13 +2,11 @@
 
 - Google OAuth via Supabase (implemented on `feat/supabase-authentication`).
 - Avatar menu in navbar with Account preferences, Theme, Logout (Logout implemented; Account/Theme TODO).
-- Passkeys as an additional option (to be implemented on `feat/add-passkey-auth`).
 
 ### TODOs
 - Add production domain(s) and update Supabase Redirect URLs.
 - Implement Account preferences page.
 - Implement Theme switcher (Light/Dark/System).
-- Add passkey registration prompt post first Google sign-in.
 
 ## Supabase setup checklist
 

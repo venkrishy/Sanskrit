@@ -29,102 +29,13 @@ export function AuthProvider({ children }) {
     await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin + '/dashboard' } })
   }
 
-  const signInWithPasskey = async () => {
-    try {
-      // Use WebAuthn API directly since Supabase doesn't have built-in support yet
-      const credential = await navigator.credentials.get({
-        publicKey: {
-          challenge: new Uint8Array(32),
-          allowCredentials: [],
-          userVerification: 'required',
-          timeout: 60000,
-        }
-      })
-      
-      if (credential) {
-        // Create a temporary session for demo purposes
-        // In a real implementation, you'd verify the credential with your backend
-        // and create a proper Supabase session
-        
-        // For now, let's create a mock user session to demonstrate the UI
-        const mockUser = {
-          id: 'passkey-user-' + Date.now(),
-          email: 'user@passkey.local',
-          user_metadata: {
-            avatar_url: null,
-            full_name: 'Passkey User'
-          }
-        }
-        
-        // Create a mock session
-        const mockSession = {
-          user: mockUser,
-          access_token: 'mock-token',
-          refresh_token: 'mock-refresh-token'
-        }
-        
-        // Set the session in the context
-        setSession(mockSession)
-        
-        // Redirect to dashboard
-        window.location.href = '/dashboard'
-        return { success: true }
-      }
-    } catch (error) {
-      console.error('Passkey authentication failed:', error)
-      throw error
-    }
-  }
-
-  const registerPasskey = async (email) => {
-    if (!email) throw new Error('Email required for passkey registration')
-    
-    try {
-      // Use WebAuthn API directly for passkey creation
-      const credential = await navigator.credentials.create({
-        publicKey: {
-          challenge: new Uint8Array(32),
-          rp: {
-            name: "Samskritavak",
-            id: window.location.hostname,
-          },
-          user: {
-            id: new TextEncoder().encode(email),
-            name: email,
-            displayName: email,
-          },
-          pubKeyCredParams: [
-            { type: "public-key", alg: -7 }, // ES256
-            { type: "public-key", alg: -257 }, // RS256
-          ],
-          authenticatorSelection: {
-            authenticatorAttachment: "platform",
-            userVerification: "required",
-          },
-          timeout: 60000,
-        }
-      })
-      
-      if (credential) {
-        // For now, just return success
-        // In a full implementation, you'd store the credential with your backend
-        return { success: true, credential }
-      }
-    } catch (error) {
-      console.error('Passkey registration failed:', error)
-      throw error
-    }
-  }
 
   const signOut = async () => {
-    // Clear the session (works for both Supabase and mock sessions)
-    setSession(null)
-    // Also sign out from Supabase if there's a real session
     await supabase.auth.signOut()
     window.location.href = '/'
   }
 
-  const value = useMemo(() => ({ session, user, loading, signInWithGoogle, signInWithPasskey, registerPasskey, signOut }), [session, user, loading])
+  const value = useMemo(() => ({ session, user, loading, signInWithGoogle, signOut }), [session, user, loading])
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
