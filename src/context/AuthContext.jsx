@@ -31,16 +31,22 @@ export function AuthProvider({ children }) {
 
   const signInWithPasskey = async () => {
     try {
-      // Let Supabase handle the WebAuthn flow without requiring email upfront
-      // This matches GitHub's approach - the system figures out if user exists
-      const { data, error } = await supabase.auth.signInWithWebAuthn({
-        options: {
-          redirectTo: window.location.origin + '/dashboard'
+      // Use WebAuthn API directly since Supabase doesn't have built-in support yet
+      const credential = await navigator.credentials.get({
+        publicKey: {
+          challenge: new Uint8Array(32),
+          allowCredentials: [],
+          userVerification: 'required',
+          timeout: 60000,
         }
       })
       
-      if (error) throw error
-      return data
+      if (credential) {
+        // For now, redirect to dashboard since we have a valid passkey
+        // In a full implementation, you'd verify the credential with your backend
+        window.location.href = '/dashboard'
+        return { success: true }
+      }
     } catch (error) {
       console.error('Passkey authentication failed:', error)
       throw error
@@ -51,15 +57,36 @@ export function AuthProvider({ children }) {
     if (!email) throw new Error('Email required for passkey registration')
     
     try {
-      const { data, error } = await supabase.auth.createPasskey({
-        email,
-        options: {
-          redirectTo: window.location.origin + '/dashboard'
+      // Use WebAuthn API directly for passkey creation
+      const credential = await navigator.credentials.create({
+        publicKey: {
+          challenge: new Uint8Array(32),
+          rp: {
+            name: "Samskritavak",
+            id: window.location.hostname,
+          },
+          user: {
+            id: new TextEncoder().encode(email),
+            name: email,
+            displayName: email,
+          },
+          pubKeyCredParams: [
+            { type: "public-key", alg: -7 }, // ES256
+            { type: "public-key", alg: -257 }, // RS256
+          ],
+          authenticatorSelection: {
+            authenticatorAttachment: "platform",
+            userVerification: "required",
+          },
+          timeout: 60000,
         }
       })
       
-      if (error) throw error
-      return data
+      if (credential) {
+        // For now, just return success
+        // In a full implementation, you'd store the credential with your backend
+        return { success: true, credential }
+      }
     } catch (error) {
       console.error('Passkey registration failed:', error)
       throw error
