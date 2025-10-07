@@ -29,12 +29,11 @@ export function AuthProvider({ children }) {
     await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin + '/dashboard' } })
   }
 
-  const signInWithPasskey = async (email) => {
-    if (!email) throw new Error('Email required for passkey authentication')
-    
+  const signInWithPasskey = async () => {
     try {
+      // Let Supabase handle the WebAuthn flow without requiring email upfront
+      // This matches GitHub's approach - the system figures out if user exists
       const { data, error } = await supabase.auth.signInWithWebAuthn({
-        email,
         options: {
           redirectTo: window.location.origin + '/dashboard'
         }
