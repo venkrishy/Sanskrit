@@ -25,6 +25,7 @@ import FeminineNamePage from './app/01-getting-started/feminine-name/page.jsx'
 import WhoWhatPage from './app/01-getting-started/who-what/page.jsx'
 import YesNoPage from './app/01-getting-started/yes-no/page.jsx'
 import DailyItemsPage from './app/01-getting-started/daily-items/page.jsx'
+import DashboardPage from './app/dashboard/page.jsx'
 
 
 
@@ -33,6 +34,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<RootLayout><HomePage /></RootLayout>} />
+        <Route path="/dashboard" element={<RootLayout><DashboardPage /></RootLayout>} />
         
         {/* New 14-module structure routes */}
         <Route path="/01-getting-started" element={<RootLayout><GettingStartedPage /></RootLayout>} />

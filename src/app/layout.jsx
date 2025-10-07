@@ -558,7 +558,9 @@ const tableOfContents = [
   }
 ]
 
-export default function RootLayout({ children }) {
+import { AuthProvider, useAuth } from '@/context/AuthContext'
+
+function LayoutInner({ children }) {
   const isHome = typeof window !== 'undefined' && window.location.pathname === '/'
   if (isHome) {
     return (
@@ -640,5 +642,13 @@ export default function RootLayout({ children }) {
             </main>
           </div>
         </div>
+  )
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <AuthProvider>
+      <LayoutInner>{children}</LayoutInner>
+    </AuthProvider>
   )
 }
