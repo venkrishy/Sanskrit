@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useAuth } from '@/context/AuthContext'
-import Navbar from '@/components/Navbar'
 import ContinuePage from '@/components/ContinuePage'
 
 export default function DashboardPage() {
@@ -150,13 +149,6 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="">
-      <Navbar 
-        onLoginClick={() => {}} 
-        activeTab={activeTab}
-        onTabChange={setActiveTab}
-      />
-      {renderContent()}
-    </div>
+    <div className="">{renderContent()}</div>
   )
 }

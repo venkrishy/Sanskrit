@@ -7,7 +7,7 @@ export default function ModulePage() {
         title="Module Title"
         subtitle="Module description"
         level="Beginner"
-        progress={0}
+        progress={50}
       />
       <div className="p-6 bg-white rounded-lg border border-gray-200">
         <p className="text-gray-600">Content coming soon...</p>

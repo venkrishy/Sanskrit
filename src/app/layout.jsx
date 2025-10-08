@@ -1,5 +1,9 @@
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { cn } from '@/lib/utils'
+import { useState } from 'react'
+import { Menu, X, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import TopBar from '@/components/TopBar'
 
 // Table of contents with optimized flat structure from gemini recommendations
 const tableOfContents = [
@@ -561,44 +565,55 @@ const tableOfContents = [
 import { AuthProvider, useAuth } from '@/context/AuthContext'
 
 function LayoutInner({ children }) {
+  const [tocOpen, setTocOpen] = useState(true)
+  const [practiceOpen, setPracticeOpen] = useState(false)
+  
   const isHome = typeof window !== 'undefined' && window.location.pathname === '/'
+  
   if (isHome) {
     return (
       <div className="min-h-screen bg-gray-50">
-        {/* Minimal layout for Home (no sidebars) */}
+        <TopBar onToggleToc={() => setTocOpen(!tocOpen)} onTogglePractice={() => setPracticeOpen(!practiceOpen)} />
         <main>
           {children}
         </main>
       </div>
     )
   }
+  
   return (
     <div className="min-h-screen bg-gray-50">
-          {/* Mobile Navigation */}
-          <nav className="lg:hidden bg-white border-b border-gray-200 sticky top-0 z-50">
-            <div className="px-4 py-3">
-              <div className="flex items-center justify-between">
-                <h1 className="text-lg font-semibold text-gray-900">Samskritavak</h1>
-                <button className="p-2 rounded-md text-gray-600 hover:bg-gray-100">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </nav>
+      <TopBar onToggleToc={() => setTocOpen(!tocOpen)} onTogglePractice={() => setPracticeOpen(!practiceOpen)} />
 
-          {/* Desktop Layout */}
-          <div className="hidden lg:grid lg:grid-cols-[300px_1fr_300px] lg:h-screen">
-            {/* Left Sidebar - Table of Contents */}
-            <ScrollArea className="h-screen border-r bg-white">
+      {/* Desktop Layout */}
+      <div className="hidden lg:flex lg:h-[calc(100vh-73px)]">
+        {/* Left Sidebar - Table of Contents */}
+        {tocOpen && (
+          <div className="w-80 border-r bg-white">
+            <ScrollArea className="h-full">
               <div className="p-4">
-                <h2 className="mb-4 text-lg font-semibold">Table of Contents</h2>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-lg font-semibold">Table of Contents</h2>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => setTocOpen(false)}
+                    className="p-1"
+                  >
+                    <X className="w-4 h-4" />
+                  </Button>
+                </div>
                 {tableOfContents.map((chapter) => (
                   <div key={chapter.number} className="mb-2">
-                    <div className="flex w-full items-center justify-between rounded-lg p-2 text-left">
+                    <a
+                      href={chapter.url}
+                      className="flex w-full items-center justify-between rounded-lg p-2 text-left hover:bg-blue-50 font-medium text-blue-800"
+                    >
                       <span>Chapter {chapter.number}: {chapter.title}</span>
-                    </div>
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </a>
                     <div className="ml-4 mt-2 space-y-1">
                       {chapter.sections.map((section) => (
                         <a
@@ -614,34 +629,50 @@ function LayoutInner({ children }) {
                 ))}
               </div>
             </ScrollArea>
+          </div>
+        )}
 
-            {/* Main Content */}
-            <main className="h-screen overflow-y-auto">
-              <div className="container mx-auto p-8">
-                {children}
-              </div>
-            </main>
+        {/* Main Content */}
+        <main className="flex-1 overflow-y-auto">
+          <div className="container mx-auto p-8">
+            {children}
+          </div>
+        </main>
 
-            {/* Right Sidebar - Practice Area */}
-            <ScrollArea className="h-screen border-l bg-white">
+        {/* Right Sidebar - Practice Area */}
+        {practiceOpen && (
+          <div className="w-80 border-l bg-white">
+            <ScrollArea className="h-full">
               <div className="p-4">
-                <h2 className="mb-4 text-lg font-semibold">Practice</h2>
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-lg font-semibold">Practice</h2>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => setPracticeOpen(false)}
+                    className="p-1"
+                  >
+                    <X className="w-4 h-4" />
+                  </Button>
+                </div>
                 <div className="text-muted-foreground">
                   Practice content coming soon...
                 </div>
               </div>
             </ScrollArea>
           </div>
+        )}
+      </div>
 
-          {/* Mobile Layout */}
-          <div className="lg:hidden">
-            <main className="min-h-screen">
-              <div className="container mx-auto px-4 py-6">
-                {children}
-              </div>
-            </main>
+      {/* Mobile Layout */}
+      <div className="lg:hidden">
+        <main className="min-h-screen">
+          <div className="container mx-auto px-4 py-6">
+            {children}
           </div>
-        </div>
+        </main>
+      </div>
+    </div>
   )
 }
 

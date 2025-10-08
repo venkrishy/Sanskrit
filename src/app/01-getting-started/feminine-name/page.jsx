@@ -1,24 +1,21 @@
-import TitleCard from '@/components/cards/TitleCard'
+import ChapterTitleCard from '@/components/cards/ChapterTitleCard'
 import ExplanationCard from '@/components/cards/ExplanationCard'
 import ImageCard from '@/components/cards/ImageCard'
 import QuizCard from '@/components/cards/QuizCard'
-import NavigationCard from '@/components/cards/NavigationCard'
 import { getLessonNavigation } from '@/lib/navigation'
 
 export default function FeminineNamePage() {
   const navigation = getLessonNavigation('/01-getting-started/feminine-name');
   
   return (
-    <div className="space-y-6">
-      {/* Navigation Card */}
-      <NavigationCard {...navigation} />
-      
-      {/* Title Card */}
-      <TitleCard 
+    <div className="space-y-4">
+      {/* Chapter & Title Card */}
+      <ChapterTitleCard 
+        {...navigation}
         title="1.3 - My Name Is... (The Feminine Name)"
         subtitle="Learning feminine gender names and introductions"
         level="Beginner"
-        progress={40}
+        progress={50}
       />
       
       {/* Vocabulary and Goal Card */}

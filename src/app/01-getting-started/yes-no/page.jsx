@@ -1,24 +1,21 @@
-import TitleCard from '@/components/cards/TitleCard'
+import ChapterTitleCard from '@/components/cards/ChapterTitleCard'
 import ExplanationCard from '@/components/cards/ExplanationCard'
 import ImageCard from '@/components/cards/ImageCard'
 import QuizCard from '@/components/cards/QuizCard'
-import NavigationCard from '@/components/cards/NavigationCard'
 import { getLessonNavigation } from '@/lib/navigation'
 
 export default function YesNoPage() {
   const navigation = getLessonNavigation('/01-getting-started/yes-no');
   
   return (
-    <div className="space-y-6">
-      {/* Navigation Card */}
-      <NavigationCard {...navigation} />
-      
-      {/* Title Card */}
-      <TitleCard 
+    <div className="space-y-4">
+      {/* Chapter & Title Card */}
+      <ChapterTitleCard 
+        {...navigation}
         title="1.5 - Yes/No: Simple Affirmation and Negation"
         subtitle="Learning to say yes and no in Sanskrit"
         level="Beginner"
-        progress={60}
+        progress={50}
       />
       
       {/* Vocabulary and Goal Card */}

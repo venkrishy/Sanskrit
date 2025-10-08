@@ -42,19 +42,6 @@ export default function ContinuePage() {
           <h1 className="text-3xl font-bold text-gray-900">Continue where I left off</h1>
           <p className="text-gray-600 mt-2">Pick up your Sanskrit learning journey right where you left off</p>
         </div>
-        {progress && (
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <div className="flex items-center gap-2 text-blue-700">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span className="font-medium">Last lesson: {progress.lessonId}</span>
-            </div>
-            <p className="text-sm text-blue-600 mt-1">
-              Last accessed: {new Date(progress.timestamp).toLocaleString()}
-            </p>
-          </div>
-        )}
       </div>
 
       {/* Recent Progress */}
